@@ -1,0 +1,98 @@
+.span8{ margin:0 auto; width:100% !important; padding-top: 15px;}
+.profile .content{ padding-left:0;}
+form{margin-bottom: 0}
+select{ height: 35px; line-height: 35px; padding:0;outline:none !important; border:1px solid #2ba8db; border-radius: none;float:left;
+	margin-right:4px;width:auto !important;margin-bottom: 4px}
+.select_ui{float: left !important; margin-right: 5px !important;margin-bottom: 4px  !important}
+input.buttons{float: left; background: #a3c756 !important; text-shadow:none !important;; color: #fff;border-radius: 3px}
+input.buttons:hover{float: left; background: #8bb62f !important; text-shadow:none; color: #fff;border-radius: 3px}
+input[type="button"]{float: left; height: 33px;  outline: none !important;font-family: "微软雅黑,宋体" ;font-size: 14px; background: #a3c756 none repeat scroll 0 0;color: #fff;;
+text-shadow:none;}
+input[type="button"]:hover{ background: #8bb62f none repeat scroll 0 0;color: #fff;}
+table{border-collapse:collapse; color: #2e2e2e  !important}
+table thead{background:#f1f1f1}
+table thead th tr.status,.type{ width:100px;}
+tbody tr:nth-child(2n+1){background:#f8f8f8;}
+tbody tr:nth-child(2n):hover{background:#f8f8f8;}
+.mx_hidden{ width:100px;}
+tbody tr:hover td a.titles{color:#2ba8db;}
+tbody tr td a.titles{color:#121212; text-decoration:none}
+tbody tr td a.titles:hover{color:#2ba8db; text-decoration:none}
+/*分页样式*/
+.pages{ width:100% !important; padding:0;}
+.pagination{ text-align: right}
+.pages .pagination ul li a{color:#2c2c2c;}
+@media screen and (min-width: 1200px) {
+.container-fluid{width:1024px; height:auto; margin:0 auto;}
+ }
+@media screen and (max-width: 1000px) {
+tr td{ text-align: left !important;}
+.container-fluid{width:80%; height:auto; margin:0 auto;}
+.mid_hidden{ display: none !important;}
+}
+@media screen and (max-width: 1200px) {
+.container-fluid{width:80%; height:auto; margin:0 auto;}
+tr td{ text-align: left !important;}
+.title{ width:250px; max-width: 250px;}
+.mx_hidden{ display: none !important;}
+}
+@media screen and (min-width: 1200px) {
+tr td{ text-align: left !important;}
+.title{ width:300px; max-width: 300px;}
+}
+@media screen and (max-width: 600px) {
+.container-fluid{width:90%; height:auto; margin:0 auto;} 
+tr td{ text-align: left !important;}
+.min_hidden{ display: none !important;}
+.id{ width:60px;max-width:60px;}
+.title{ width:auto}
+ul.paging li a{color:#2ba8db;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+body{
+    font-size: 1.2rem;
+}
+header{
+    background: white;
+}
+/*大图切换开始*/
+.main-banner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 10px;
+}
+.main-banner a{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.main-banner a img{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+.main-banner .message-news{
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    display: block;
+    background:rgba(0,0,0,0.8);
+    color: white;
+    padding-left: 20px;
+}
+/*大图切换结束*/
+/*第一部分开始*/
+.part-one{
+    border-top: 2px solid #c8c8c8;
+    border-bottom: 2px solid #c8c8c8;
+    position: relative;
+    clear: both;
+}
+.part-one-content{
+    height: 77px;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    margin: 0 12px;
+}
+.part-one-content .part-one-box{
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+    display: block;
+    text-align: center;
+}
+.part-one-content .part-one-box img{
+    height: 55px;
+    width: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.part-one-content .part-one-box span{
+    font-size: 1.2em;
+    display: block;
+}
+/*第一部分结束*/
+.span{
+    height: 10px;
+    background: #ecedef;
+}
+/*第二部分开始*/
+.part-two{
+    position: relative;
+    content: "";
+    border-top: 2px solid #c8c8c8;
+    margin-bottom: 20px;
+}
+.part-two-header{
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    padding:0 15px;
+    font-size: 1.4rem;
+
+}
+.part-two-header span{
+    float: left;
+}
+.part-two-header a.two-header-right{
+    float:right;
+}
+.part-two-cont{
+    padding:0 10px;
+}
+.part-two-cont .tow-cont-border{
+    border-bottom: 1px dashed #c8c8c8;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    padding:10px 0;
+}
+.two-cont-left{
+    width:84px;
+    height: 55px;
+    overflow:hidden;
+}
+.two-cont-left img{
+    height: 100%;
+    width: 100%;
+}
+
+.two-cont-right{
+    -moz-box-flex: 1;
+    -webkit-box-flex:1;
+    height: 55px;
+    overflow:hidden;
+    margin-right:10px;
+}
+
+.two-cont-right .right-title span{
+    font-size: 1.2rem;
+    color:#565555;
+    display: block;
+    float: left;
+    line-height: 18px;
+
+}
+.two-cont-right .right-title .country{
+    display: block;
+    float: right;
+    padding:0px 10px;
+    border:1px solid #aacef5;
+    border-radius: 5px;
+
+}
+
+

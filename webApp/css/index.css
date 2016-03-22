@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-03 15:18:20
+ * @version $Id$
+ */
+/*公共样式*/
+*{
+    font-family: "Microsoft YaHei";
+   box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+-   webkit-box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+body{
+    background: #ECECEC;
+}
+.weui_cell,.weui_media_box{
+    padding:10px;
+}
+.no-bgcolor{
+    background: none;
+}
+.no-margin{
+    margin:0;
+}
+#toggle-switch{
+    display: none;
+}
+.border-none{
+    border:none;
+}
+.clear{
+    clear:both;
+}
+.weui_cells_form .no-triangle:after{
+    display: none;
+}
+.wrap{
+    width: 100%;
+    /*overflow:hidden;*/
+}
+/*-----------------主界面------------------------------*/
+/*头部*/
+.weui-header{
+    background: white;
+}
+.weui-header .weui-header-form{
+    position: none;
+}
+.weui-header .weui-header-form:after,.weui-header .weui-header-form:before{
+    border:none;
+}
+.weui-header .weui-header-form .weui_search_inner.form-input{
+    width:80%;
+    float: left;
+    overflow: hidden;
+    border:1px solid #15a3c7;
+    border-radius: 3px;
+}
+.weui-header .weui-header-form .search-btn{
+    z-index: 8;
+    float: right;
+    padding:2px 10px;
+    background: #15a3c7;
+}
+/*下拉*/
+.weui_cells.weui-toggle:after{
+    border:none;
+}
+.weui-toggle{
+    /*border-bottom:1px solid #ccc;*/
+}
+.weui-toggle .weui_cell_ft:after{
+    display: none;
+    border:none;
+}
+.list-toggle{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.list-toggle p{
+    font-size: 14px;
+}
+.weui-toggle .toggle-btn{
+    height: 15px;
+    width: 15px;
+    display: block;
+    background:url(../images/toggle-btn.png) no-repeat; 
+    background-size: 15px 15px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transition:all ease 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -ms-transition:all ease 0.5s;
+}
+.list-toggle #toggle-switch{
+    position: absolute;
+    top:39px;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 99999;
+    font-size: 14px;
+}
+/*内容部分*/
+.weui_panel_bd.contents{
+    margin-bottom: 80px;
+}
+.weui-content{
+    margin-top: 10px;
+    background: white;
+    height: auto;
+    width: auto;
+}
+.weui-cont-header{
+}
+.weui-cont-header h4.weui_media_title{
+    font-size: 14px;
+    float: left;
+}
+.weui-cont-header span{
+    font-size: 12px;
+    height: 20px;
+    float: right;
+    /*line-height: 20px;*/
+    padding:0 4px;
+    margin:2px;
+}
+.weui-cont-header span.open{
+    border:1px solid #15a3c7;
+    color: #15a3c7;
+}
+.weui-cont-header span.connected{
+    border:1px solid #16FF7E;
+    color:#16FF7E;
+}
+.weui-cont-header span.unCertification{
+    border:1px solid #b8b8b8;
+    color:#b8b8b8;
+}
+.weui-cont-header span.certification{
+    border:1px solid #33ebc3;
+    color:#33ebc3;
+}
+
+.weui-content .weui-cont-desc{
+    height: 20px;
+    line-height: 20px;
+}
+.weui-content .weui-cont-desc p{
+    float: left;
+}
+.weui-content .weui-cont-desc span{
+    float: right;
+    font-size: 12px;
+}
+.weui-cont-botton{
+    margin-top: 5px;
+    height: 40px;
+}
+.weui-cont-botton .weui_media_info span{
+    color:#15a3c7;
+}
+.weui-cont-botton .weui_media_info{
+    float: left;
+}
+.weui-cont-botton .oder-btn{
+    float: right;
+    padding:0.2rem 2em;
+}
+.gray-color{
+    background:#cecece;
+}
+.gray-color:hover{
+    background:#bfbfbf;
+}
+.green-color{
+    background: #05abd1;
+}
+.green-color:hover{
+    background: #0ab6dd;
+}
+#more-btn{
+    margin:15px 20px 0;
+}
+/*尾部*/
+.footer-fixed{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    z-index: 99999;
+}
+.weui_tabbar_item.weui_bar_item_on .weui_tabbar_label{
+    color:#888;
+}
+/*--------------个人页面--------------*/
+.personal{
+    position: relative;
+}
+.inside-page-header{
+    text-align: center;
+    border-bottom:1px solid #aeaeae;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    z-index: 99999;
+}
+.inside-page-header .header-return-btn{
+    height:40px;
+    width: 40px;
+    position: absolute;
+    left: 0px;
+    top:0;
+    background: url(../images/return-btn.png) no-repeat center center;
+    background-size: 20px 20px;
+    z-index: 999;
+
+}
+.inside-page-header .weui_cell p{
+    font-weight: 600;
+
+}
+.personal-content{
+    padding: 50px 0 55px;
+}
+.personal-content .personal-cont-part{
+    margin-top: 10px;
+    font-size: 14px;
+}
+/*关于我们页面*/
+.per-about{
+    padding: 50px 0 60px;
+    width:80%;
+    margin:0 auto;
+    position: relative;
+}
+.per-about .per-logo{
+    width: 55%;
+    margin:15px auto;
+}
+.per-about .per-logo img{
+    width: 100%;
+    overflow: hidden;
+}
+.per-about p{
+    font-size:25px;
+    text-align: center;
+    color:#303030;
+}
+.per-about .contact-btn {
+    height: 55px;
+}
+.per-about .contact-btn .btn-item{
+    display:inline-block;
+    padding-top:8px;
+}
+.per-about .contact-btn .btn-item i{
+    float: left;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background: red;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.per-about .btn-wechat .btn-item i{
+    background: url(../images/btn-icon1.png) 0 0;
+    background-size: 100%;
+
+}
+.per-about .btn-weibo .btn-item i{
+    background: url(../images/btn-icon1.png) 0 -40px;
+    background-size: 100%;
+}
+.per-about .btn-tell .btn-item i{
+    background: url(../images/btn-icon1.png) 0 -80px;
+    background-size: 100%;
+}
+.per-about .contact-btn .btn-item span{
+    display: inline-block;
+    float: left;
+    color: #93969d;
+}
+
+/*输入码页面*/
+
+
+/*电桩信息页*/
+.equipment-content{
+    position: relative;
+    margin-top:50px;
+}
+.equipment-content p,.equipment-content .weui_cell_ft{
+    font-size: 14px;
+}
+.equipment-content  .charging{
+    width: 90%;
+    margin:20px auto 0;
+}

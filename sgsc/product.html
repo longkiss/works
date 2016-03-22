@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no">
+ 	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+<!-- 头部开始 -->
+<header>
+	<a href="javascript:history.go(-1);" class="logo">
+		<img src="images/header-logo.jpg" alt="">
+	</a>
+	<div class="header-right">
+		<a href="#" class="menu">
+			<i class="header-icon"><img src="images/header-menu.jpg" alt=""></i>
+			<span>菜单</span>
+		</a>
+		<a href="personal.html" class="person">
+			<i class="header-icon"><img src="images/header-person.jpg" alt=""></i>
+			<span>用户</span>
+			</a>
+		<a href="shopping.html" class="shopping">
+			<i class="header-icon"><img src="images/header-shopping.jpg" alt=""></i>
+			<span>购物车</span>
+		</a>
+	</div>
+</header>
+<!-- 头部结束-->
+<!-- 排序开始 -->
+<section class="product-select">
+	<span class="sort">排序</span>
+	<a href="#" >产品↓</a>
+	<a href="#">新品↓</a>
+	<a href="#">价格↓</a>
+	<a href="#">人气↓</a>
+ </section>
+<!--排序结束 -->
+
+<!-- 产品列表开始-->
+<section class="product-show clearfix">
+	<div class="show-content">
+		<a href="product-detail.html">
+			<img src="images/product-big-img1.jpg" alt="">
+			<div class="describe">
+				高山紫薯<span>￥298</span>
+			</div> 	
+		</a>
+		<a href="#">
+			<img src="images/product-big-img2.jpg" alt="">
+			<div class="describe">
+				土鸡蛋<span>￥98</span>
+			</div> 	
+		</a>
+ 	</div>
+ 	<div class="show-content">
+		<a href="#">
+			<img src="images/product-big-img3.jpg" alt="">
+			<div class="describe">
+				芒果<span>￥18</span>
+			</div> 	
+		</a>
+		<a href="#">
+			<img src="images/product-big-img4.jpg" alt="">
+			<div class="describe">
+				红心蜜柚<span>￥24</span>
+			</div> 	
+		</a>
+ 	</div>
+</section>
+<!-- 产品列表结束 -->
+<!-- 页尾部分开始 -->
+<footer>
+	<div class="link">
+		<a href="">商铺首页</a><span>|</span>
+		<a href="">会员中心</a><span>|</span>
+		<a href="">关于我们</a>
+	</div>
+	<p class="clearfix">copyright@2015xxx.com </p>
+ </footer>
+<!-- 页尾部分结束 -->
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script>
+	$(".product-select>a").click(function(){
+		$(this).addClass("focus").siblings("a").removeClass("focus")
+	})
+	
+</script>
+ 
+ </body>
+</body>
+</html>

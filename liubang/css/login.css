@@ -1,0 +1,177 @@
+body{
+    font-size: 1.2rem;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: #01afba !important;
+}
+.login{
+    position: fixed;
+    height: 100%;
+    width:100%;
+    background:#01afba  ;
+}
+.login .login-logo{
+    position: relative;
+    padding:10% 25%;
+    text-align: center;
+}
+.login .login-logo img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.login-form{
+    position: relative;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    background: #f8f8f8;
+    margin: 0 35px;
+    overflow: hidden;
+}
+.login-content{
+    display: box;
+    display: -webkit-box;
+    height: 40px;
+}
+.login-content .cont-left{
+    height: 25px;
+    width: 25px;
+     margin: 5px 10px;
+}
+.login-content.login-user{
+    border-bottom: 1px solid #c8c8c8;
+}
+.login-content.login-user .cont-left{
+    background: url("../images/login-user.png") no-repeat;
+    background-size:25px 25px;
+}
+.login-content.login-password .cont-left{
+    background: url("../images/login-password.jpg") no-repeat;
+    background-size:25px 25px;
+}
+.login-content .cont-right{
+    box-flex:1;
+    -moz-box-flex: 1;
+    -webkit-box-flex:1;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.6rem;
+    background:#f8f8f8;
+}
+.login-link{
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin: 0 35px;
+    padding:0 10px;
+}
+.login-link a.register{
+    float: left;
+    color:white;
+
+}
+.login-link a.unremenber{
+    float: right;
+    color:white;
+}
+.login .submit{
+    height:36px;
+    line-height: 36px;
+    position: relative;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    width: 100%;
+}
+.login .submit .submit-btn{
+    height: 36px;
+    text-align: center;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    box-flex:1;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    font-size: 1.8rem;
+    background:#da251c;
+    margin:22px 35px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

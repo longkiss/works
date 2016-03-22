@@ -1,0 +1,61 @@
+.row-fluid{ height: auto;  margin: 0 auto; padding-top: 10px;margin-bottom: 15px;}
+.row-fluid .container-fluid .text01{ font-size: 30px; color: #000; height:50px;line-height: 50px;margin-left: 0}
+.row-fluid .container-fluid .closed{ height: 50px; background: #EEEEEE;margin-bottom: 20px; font-size: 14px;color: #FF0000;
+	line-height: 50px;padding-left:20px; border-radius: 3px;}
+.row-fluid .container-fluid .closed strong{ font-size: 18px}
+.row-fluid .container-fluid .closed span.closes{ float: right;margin-right: 25px; height: 31px; width: 21px; 
+	background: url(../images/icon03.png) no-repeat; margin-top: 12px}
+.row-fluid .container-fluid .closed span.closes:hover{background: url(../images/icon04.png) no-repeat;}
+.row-fluid .container-fluid form .span8{ margin-left:0;}
+.row-fluid .container-fluid form .span8 label{ font-size: 16px; color:#000; height:30px;line-height: 30px; margin-bottom:15px;}
+.row-fluid .container-fluid form .span8 #checkbox{ height:40px; width: 20px; float: left; line-height: 40px;border:none;outline: none;
+	margin-right: 3px}
+.row-fluid .container-fluid form .span8 input{width:88%\9; height: 44px\9;border:1px solid #2ba8db\9 ;}
+.row-fluid .container-fluid form .span8 .remember{ height:44px; width: 200px; float: left; line-height: 44px;}
+.row-fluid .container-fluid form .span8 input.code{ height:44px; width: 200px; float: left; margin-right:15px;}
+.row-fluid .container-fluid form .span8 .codes{ height:44px; width: 100px; float: left;}
+.row-fluid .container-fluid form .span8 .codes img{ height:44px; width:100px; overflow: hidden}
+.row-fluid .container-fluid form .span8 input[type="submit"]{ height:44px; width: 120px; background: #a3c756 none repeat scroll 0 0;color:#fff;
+ border:none;border-radius: 5px; font-size: 20px}
+.row-fluid .container-fluid form .span8 input[type="submit"]:hover{ background: #8ab03a none repeat scroll 0 0;color:#fff; outline: none}
+ input:focus:invalid, textarea:focus:invalid, select:focus:invalid{color:#555555;}
+.row-fluid .container-fluid form .span8 .help-block{clear:both;color:#a94442;}
+@media (min-width: 960px) {
+.row-fluid{ height: auto; width: 900px; margin: 0 auto; padding-top: 10px;
+	margin-bottom: 15px}
+.row-fluid .container-fluid.containers{width: 900px\9 !important}
+.row-fluid .container-fluid .closed{ width: 810px;}
+.row-fluid .container-fluid form{ }
+.row-fluid .container-fluid form .span8{ height:auto; width: 900px; margin-left:0;}
+.row-fluid .container-fluid form .span8 input{ height:44px; width: 88%; width:88%\9;border:1px solid #2ba8db; padding:0;box-shadow: none;padding-left:15px}
+}
+@media (max-width: 960px) {
+.row-fluid{ width: 98%\9 !important}	
+.container-fluid{ width: 90%; ;height:auto; margin: 0 auto}
+/*.container-fluid { width: 100%;height:auto;}*/
+.row-fluid .container-fluid .closed{ width: 90%}
+.container-fluid form .span8{ width: 100%;height:auto;}
+ .row-fluid .container-fluid form .span8 label{ font-size: 16px; color:#000; height:30px;line-height: 30px}
+.row-fluid .container-fluid form .span8 input{ height:44px; width: 88%; border:1px solid #2ba8db; padding:0;box-shadow: none;padding-left:15px}
+}
+@media (max-width: 480px) {
+.container-fluid{ width: 90%; ;height:auto; margin: 0 auto; font-size: 12px}
+/*.container-fluid { width: 100%;height:auto;}*/
+.row-fluid .container-fluid .closed{ width: 90%; font-size: 12px}
+.container-fluid form .span8{ width: 100%;height:auto;}
+ .row-fluid .container-fluid #form02 .span8 label{ font-size: 12px; color:#000; height:30px;line-height: 30px}
+.row-fluid .container-fluid #form02 .span8 input{ height:44px; width: 88%; border:1px solid #2ba8db; padding:0;box-shadow: none;padding-left:15px}
+.row-fluid .container-fluid form .span8 input.code{ height:44px; width: 120px !important; float: left; margin-right:15px;}
+.row-fluid .container-fluid form .span8 #checkbox{ height:44px; width: 20px; float: left; line-height: 44px;border:none;outline: none;
+	height: 30px\9;line-height: 30px\9;
+	margin-top: 7px\9;margin-right: 3px\9}
+.row-fluid .container-fluid form .span8 .remember{ height:30px; width: 200px; float: left; line-height:30px;}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+.address{
+	margin-top: 20px;
+	padding:0 10px;
+	position: relative;
+	content: "";
+}
+.address .address-cont{
+	border-top:1px solid #e6e6e6;
+
+}
+.address p{
+	color: #b5b5b5;
+	font-size: 1.4rem;
+	line-height: 25px;
+	clear: both;
+}
+.address p a{
+	color: #b5b5b5;
+	float: left;
+	margin-right: 5px;	
+}
+.address .address-btn{
+	margin-top: 20px;
+	height: 40px;
+	border-top:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	display: box;
+	display: -webkit-box;
+	background: #f7f7f7;
+
+}
+.address .address-btn .box{
+	display: block;
+	box-flex:1;
+	-webkit-box-flex:1;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+ .address .address-btn .compile{
+ 	border-right: 1px solid #e6e6e6;
+ }
+ .address .address-btn .box a{
+   	display: block;
+  	text-align: center;
+ 	margin:0 auto;
+ 	line-height: 40px;
+ 	height: 40px;
+ 	position: relative;
+   	 
+ }
+.address .address-btn .box a img{
+	margin-top: 5px;
+	height:30px;
+	width:30px;
+	margin-left: -10%;
+ }
+ .address .address-btn .box a span{
+ 	line-height: 40px;
+ 	display: inline-block;
+ 	height: 40px;
+ 	position: absolute;
+ 	top: 5%;
+ }
+ 

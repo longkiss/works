@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/university_zx.css" type="text/css">
+    <title>剑桥大学</title>
+</head>
+<body>
+<header>
+    <a href="javascript:history.go(-1);" class="return-btn">
+        <span>返回</span>
+    </a>
+    <h3>剑桥大学</h3>
+</header>
+<!--tab部分开始-->
+<section class="tab clearfix">
+	<ul class="tab">
+        <li><a href="university_gk.html">概况</a></li>
+        <li><a href="university.html">专业</a></li>
+        <li class="tab-now"><a href="university_zx.html">咨询</a></li>
+        <li><a href="university_tp.html">图片</a></li>
+    </ul>
+</section>
+<!--tab分结束-->
+<section class="register">
+    <div id="tabbox" class="tabbox">
+        <ul class="tabs" id="tabs">
+            <li class="now"><a href="#">新闻</a></li>
+            <li><a href="#">攻略</a></li>
+        </ul>
+    </div>
+    <ul class="tab_conbox" id="tab_conbox">
+        <li class="tab_con">
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+
+        </li>
+        <li class="tab_con">
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="tab-con-box">
+                <div class="box-left">
+                    <div class="left-title">全面解读！2015年英国大学硕士申请入学要求 </div>
+                    <span>2015-10-10</span>
+                </div>
+                <div class="box-right">
+                    <img src="images/pic01.jpg" alt=""/>
+                </div>
+            </div>
+
+        </li>
+    </ul>
+
+</section>
+<!--页尾部分开始-->
+<footer>
+    <a class="box-flex home now" href="index.html">
+        <i></i>
+        <span >首页</span>
+    </a>
+    <a class="box-flex message" href="message.html">
+        <i></i>
+        <span>资讯</span>
+    </a>
+    <a class="box-flex my" href="login.html">
+        <i></i>
+        <span>我的</span>
+    </a>
+</footer>
+
+
+<!--页尾部分结束-->
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/tab.js"></script>
+<script type="text/javascript">
+    $(".choose-box>a").on("touchstart",function(){
+        $(".choose-box>a").removeClass("focus");
+        $(this).addClass("focus");
+    });
+    /*$(".choose-box a").on("touchstart",function(){
+     $(".choose-box a").attr("class","focus")
+     $(".choose-box a").addClass('focus').parent("choose-box").children("a").removeClass("focus");
+     })*/
+    /* $(".change-bacolor>a").on("touchstart",function(){
+     $(this).addClass("focus");
+     });*/
+
+    /*  $(".choose-box a").click(function(event){
+     event.preventDefault();
+     $(".choose-box a.text").css("background","none");
+     $(".choose-box a").attr("class","focus");
+     $(".choose-box a").removeClass('focus');
+     $(this).addClass('focus');
+     });*/
+    $(".choose-box>a").on("touchstart",function(){
+        $(this).addClass("focus").siblings().parent(".choose-box").children("a").removeClass("focus")
+    })
+</script>
+</body>
+</html>

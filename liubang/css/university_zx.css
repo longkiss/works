@@ -1,0 +1,149 @@
+body{
+    font-size: 1.2rem;
+}
+header{
+    background: white;
+}
+
+/*tab分开始*/
+.tab{
+    position: relative;
+    clear: both;
+ 
+}
+.tab ul.tab{
+	height:40px;
+	background:#ff552e;
+	display:box;
+	display:-moz-box;
+	display:-webkit-box;
+}
+.tab ul.tab li{
+	box-flex:1;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	font-size:1.4rem;
+}
+.tab ul.tab li.tab-now{
+	background:#e9340b;
+}
+.tab ul.tab li a{
+	color:white;
+	height:100%;
+	width:100%;
+	display:block;	
+}
+.part-title{
+    font-size: 1.6rem;
+}
+.tab-box{
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    margin:10px 0;
+}
+.tab-box .part-flex{
+    height: 30px;
+    border:1px solid #f94b23;
+    display: block;
+    box-flex:1;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 25px;
+}
+.tab-box .part-flex:last-child{
+    margin-right: 0;
+}
+/*tab部分结束*/
+.register{
+    position: relative;
+}
+.register .font{
+    font-size: 1.6em;
+    padding-left:10px;
+    line-height: 40px;
+
+}
+
+.register .tabbox{
+    overflow:hidden;
+    margin:0 auto;
+    height: 35px;
+    width: 100%;
+}
+.register .tab_conbox .porduct-show{
+
+}
+.register .tab_conbox .porduct-show a{
+    display:block;
+    overflow: hidden;
+    width: 100%;
+}
+.register .tab_conbox .porduct-show a img{
+    width: 100%;
+}
+.register .tabbox .tabs{
+    height: 35px;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.register .tabbox .tabs li{
+    box-flex:1;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    text-align: center;
+    line-height: 35px;
+    color: black;
+    font-size: 1.4rem;
+    border-bottom:2px solid #f5f5f5;
+
+}
+.register .tabbox .tabs li.thistab{
+    border-bottom: 2px solid #e9340b;
+
+}
+.register .tabbox .tabs li.thistab a{
+    color: #0b090b;
+
+}
+.tab_con{
+    clear: both;
+}
+.tab-con-box{
+    display:box;
+    display: -moz-box;
+    display: -webkit-box;
+    height: 53px;
+    padding: 20px 0;
+    border-bottom: 1px solid #c7c5c5;
+
+}
+.tab-con-box .box-left{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex:1;
+    margin-left: 15px;
+
+}
+.tab-con-box .box-left .left-title{
+    font-size: 1.4rem;
+}
+.tab-con-box .box-left span{
+    color:#cccbcb;
+}
+.tab-con-box .box-right{
+    height: 60px;
+    width: 93px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.tab-con-box .box-right img{
+    height: 100%;
+    width: 100%;
+}

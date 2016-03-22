@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>确认订单页面</title>
+	<meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no">
+ 	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/confirm_oder.css">
+ </head>
+<body>
+<header>
+	<a href="javscript:history.go(-1)" class="header-home">
+		<img src="images/header-home.jpg" alt="">
+	</a>
+	<h3>确认订单</h3>
+ </header>
+ <section class="order-content">
+	<form action="">
+	 	 <div class="location clearfix">
+			 	<div class="address default-address clearfix">
+			 		<input type="radio" value="" name="radio" id="default">
+			 		<label for="default">
+			 			<span>收货人：刘兵兵(123456781)</span><br>
+			 			<span>中国 广东 广州 海珠区 海珠路102号</span>
+			 		</label>
+		 	 	</div>
+		 	 	<div class="address new-address clearfix">
+			 		<input type="radio" value="" name="radio" id="new">
+			 		<label for="new">
+			 			<span>使用新的收货地址</span><br>
+		 	 		</label>
+		 	 	</div> 
+		 	 	<div class="message">
+		 	 		<div class="message-header"> 给卖家的留言</div>
+		 	 		<textarea name="" >选填，可告诉卖家您的商品的特殊需求。</textarea>
+		  	 	</div>
+		</div>
+		<div class="shopping clearfix">
+		 	<div class="shopping-header">
+		 		<span class="shop-left">店铺ID</span>
+		 		<span class="shop-right">订单状态：<a href="oder.html">等待付款</a></span>
+		 	</div>
+		    <div class="shop-list clearfix">
+		 	 	<div class="shop-left">
+		 	 		<a href="personal.html">
+		 	 			<img src="images/shop-img.jpg" alt="">
+		 	 		</a>
+		 	 	</div>
+		 	 	<div class="shop-right">
+		 	 		<p class="shop-title">从化茉莉香米</p>
+		 	 		<p class="shop-price">价格：<span>￥150</span></p>
+		 	 		<div class="shop-munber">数量：<span>1</span></div>
+		 	 	</div>
+		   	</div>
+		  	<div class="shop-type clearfix">
+			  	<p>配送方式：</p>
+			  	<div class="form-input">
+			  		<input type="radio" name="radio" value="" id="shop-type">
+			  		<label for="shop-type"> 顺丰   配送运费：<span>￥10</span></label>	
+			  	</div>
+		    </div>
+		    <div class="shop-total">
+				<span class="total-left">合计</span>
+				<span class="total-right">￥100</span>
+			</div>
+ 		</div>
+ 		<p class="price">价格：<span>￥110</span></p>
+		<div class="form-submit">
+			<input type="submit" value="提交订单" name="submit">
+		</div>
+	</form>
+  </section>
+ <!-- 页尾部分开始 -->
+<footer>
+	<div class="link">
+		<a href="">商铺首页</a><span>|</span>
+		<a href="">会员中心</a><span>|</span>
+		<a href="">关于我们</a>
+	</div>
+	<p class="clearfix">copyright@2015xxx.com </p>
+ </footer>
+<!-- 页尾部分结束 -->
+ </body>
+</html>

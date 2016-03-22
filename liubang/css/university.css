@@ -1,0 +1,163 @@
+body{
+    font-size: 1.2rem;
+}
+header{
+    background: white;
+}
+
+/*tab分开始*/
+.tab{
+    position: relative;
+    clear: both;
+ 
+}
+.tab ul.tab{
+	height:40px;
+	background:#ff552e;
+	display:box;
+	display:-moz-box;
+	display:-webkit-box;
+}
+.tab ul.tab li{
+	box-flex:1;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	font-size:1.4rem;
+}
+.tab ul.tab li.tab-now{
+	background:#e9340b;
+}
+.tab ul.tab li a{
+	color:white;
+	height:100%;
+	width:100%;
+	display:block;	
+}
+.part-title{
+    font-size: 1.6rem;
+}
+.tab-box{
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    margin:10px 0;
+}
+.tab-box .part-flex{
+    height: 30px;
+    border:1px solid #f94b23;
+    display: block;
+    box-flex:1;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 25px;
+}
+.tab-box .part-flex:last-child{
+    margin-right: 0;
+}
+/*tab部分结束*/
+/*search 部分*/
+.search{
+	background:#edeef0;
+    padding:4px 0;
+}
+.form-input{
+	height:30px;
+	line-height:30px;
+	display:box;
+	display:-moz-box;
+	display:-webkit-box;
+    margin:0 17px;
+    border: 1px solid #d4d4d4;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.form-input button{
+    height: 25px;
+    width: 25px;
+    background: url("../images/search-btn.jpg") no-repeat;
+    background-size:20px 20px;
+    border: none;
+    display: block;
+    margin-left:20px;
+    margin-top: 3px;
+}
+.form-input input{
+    display: block;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex:1 ;
+    height : 30 px;
+    line-height: 30px;
+}
+.search .tab{
+    height: 46px;
+    background: white;
+    line-height: 46px;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    margin-top: 5px;
+}
+.search .tab .tab-content{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex:1;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.search .tab .tab-content .tab-icon{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background: url("../images/icon01.jpg") no-repeat;
+    background-size: 30px 30px;
+
+
+}
+ul.tab-toggle{
+    display: none;
+}
+ul.tab-toggle li{
+    line-height: 20px;
+    margin-left: 20px;
+}
+.search p{
+    margin-left: 15px;
+    font-size: 1.4rem;
+    line-height: 25px;
+    height: 25px;
+}
+    /*第二部分开始*/
+.part-two{
+    position: relative;
+    content: "";
+}
+
+.part-two .part-two-box{
+     border-bottom: 1px solid #c8c8c8;
+    content:"";
+    padding:8px 15px;
+    height: 77px;
+
+}
+.part-two .part-two-box p{
+    line-height: 22px;
+    font-size: 1.4rem;
+}
+.part-two .part-two-box p .p-left{
+    float:left;
+}
+.part-two .part-two-box p .p-right{
+    float:right;
+}
+.part-two .part-two-box:last-child{
+    border:none;
+}

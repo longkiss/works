@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/university.css" type="text/css">
+    <title>剑桥大学</title>
+</head>
+<body>
+<header>
+    <a href="javascript:history.go(-1);" class="return-btn">
+        <span>返回</span>
+    </a>
+    <h3>剑桥大学</h3>
+</header>
+<!--tab部分开始-->
+<section class="tab clearfix">
+	<ul class="tab">
+        <li><a href="university_gk.html">概况</a></li>
+        <li class="tab-now"><a href="university.html">专业</a></li>
+        <li><a href="university_zx.html">咨询</a></li>
+        <li><a href="university_tp.html">图片</a></li>   
+    </ul>
+</section>
+<!--tab分结束-->
+<!--search部分-->
+<div class="search">
+	<form action="" method="">
+    	<div class="form-input">
+        	<button></button>
+        	<input type="text" name="" value="" placeholder="请输入需要专业的中文名和英文名">       
+        </div>
+    </form>
+    <div>
+        <div class="tab">
+            <div class="tab-content tab1">
+                <div >专业方向<i class="tab-icon"></i></div>
+
+            </div>
+            <span>|</span>
+            <div class="tab-content tab2">
+                <div> 学位类型<i class="tab-icon"></i></div>
+            </div>
+        </div>
+        <ul class="tab-toggle toggle1">
+            <li><a href="#">专业方向</a></li>
+            <li><a href="#">专业方向</a></li>
+            <li><a href="#">专业方向</a></li>
+            <li><a href="#">专业方向</a></li>
+            <li><a href="#">专业方向</a></li>
+        </ul>
+        <ul class="tab-toggle toggle2">
+            <li><a href="#">学位类型</a></li>
+            <li><a href="#">学位类型</a></li>
+            <li><a href="#">学位类型</a></li>
+            <li><a href="#">学位类型</a></li>
+            <li><a href="#">学位类型</a></li>
+        </ul>
+    </div>
+    <p>共1111个专业</p>
+</div>
+<!--search部分-->
+<!--第二部分开始-->
+<section class="part-two clearfix">
+    <div class="part-two-box">
+        <p>Master hfdd dfh</p>
+        <p>金融学</p>
+        <p><span class="p-left">学位类型：</span>
+             <span class="p-right">专业方向:经济金融</span>
+        </p>
+    </div>
+    <div class="part-two-box">
+        <p>Master hfdd dfh</p>
+        <p>金融学</p>
+        <p><span class="p-left">学位类型：</span>
+            <span class="p-right">专业方向:经济金融</span>
+        </p>
+    </div>
+    <div class="part-two-box">
+        <p>Master hfdd dfh</p>
+        <p>金融学</p>
+        <p><span class="p-left">学位类型：</span>
+            <span class="p-right">专业方向:经济金融</span>
+        </p>
+    </div>
+    <div class="part-two-box">
+        <p>Master hfdd dfh</p>
+        <p>金融学</p>
+        <p><span class="p-left">学位类型：</span>
+            <span class="p-right">专业方向:经济金融</span>
+        </p>
+    </div>
+    
+</section>
+<!--第二部分结束-->
+<!--页尾部分开始-->
+<footer>
+    <a class="box-flex home now" href="index.html">
+        <i></i>
+        <span >首页</span>
+    </a>
+    <a class="box-flex message" href="message.html">
+        <i></i>
+        <span>资讯</span>
+    </a>
+    <a class="box-flex my" href="login.html">
+        <i></i>
+        <span>我的</span>
+    </a>
+</footer>
+
+
+<!--页尾部分结束-->
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script>
+ $('.tab1').click(function(){
+     $(".toggle1").toggle(300);
+     $('.toggle1').siblings('tab-toggle').hidden()
+ });
+ $('.tab2').click(function(){
+     $(".toggle2").toggle(300);
+     $('.toggle2'). sibling('.tab-toggle').hide()
+ })
+</script>
+</body>
+</html>

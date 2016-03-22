@@ -1,0 +1,153 @@
+.address{
+	margin-top: 20px;
+	padding:0 10px;
+	position: relative;
+	content: "";
+}
+.address .address-cont{
+	border-top:1px solid #e6e6e6;
+
+}
+.address p{
+	color: #b5b5b5;
+	font-size: 1.4rem;
+	line-height: 25px;
+	clear: both;
+}
+.address p a{
+	color: #b5b5b5;
+	float: left;
+	margin-right: 5px;	
+}
+.address .address-btn{
+	margin-top: 20px;
+	height: 40px;
+	border-top:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	display: box;
+	display: -webkit-box;
+	background: #f7f7f7;
+
+}
+.address .address-btn .box{
+	display: block;
+	box-flex:1;
+	-webkit-box-flex:1;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+ .address .address-btn .compile{
+ 	border-right: 1px solid #e6e6e6;
+ }
+ .address .address-btn .box a{
+   	display: block;
+  	text-align: center;
+ 	margin:0 auto;
+ 	line-height: 40px;
+ 	height: 40px;
+ 	position: relative;
+   	 
+ }
+.address .address-btn .box a img{
+	margin-top: 5px;
+	height:30px;
+	width:30px;
+	margin-left: -10%;
+ }
+ .address .address-btn .box a span{
+ 	line-height: 40px;
+ 	display: inline-block;
+ 	height: 40px;
+ 	position: absolute;
+ 	top: 5%;
+ }
+ /*遮罩层开始*/
+.zhezhao{
+	height: 100%;
+	width: 100%;
+ 	background:rgba(0,0,0,0.5);
+	position: fixed;
+  	top:0;
+	left: 0;
+	display:none;
+ }
+.add{
+	position: absolute;
+  	background: rgba(255,255,255,1);
+  	top:10%;
+  	left: 5%;
+ 	width: 90%;
+	margin:0 auto;
+ 	overflow: hidden;
+	height: auto;
+	padding-bottom: 50px;
+
+   }
+.add-header{
+	font-size: 1.4rem;
+ 	height: 40px;
+	line-height: 40px;
+	padding-left: 5%;
+  } 
+.add-header h3{
+ 	float: left;
+ 	color: #666666;
+ }
+.add-header span{
+ 	height: 40px;
+ 	width: 40px;
+ 	display: block;
+ 	background: red;
+  	float:right;
+  	position:absolute;
+  	right:0;
+  	top:0;
+  	text-align: center;
+ } 
+.add-header span img{
+	height: 40px;
+	width: 40px;
+}
+
+.add-content{
+ 	position: relative;
+ 	width: 90%;
+ 	left: 5%;
+}
+.add-content .form-input input{
+	margin: 5px 0; 
+	height: 40px;
+ 	line-height: 40px;
+ 	width: 95%;
+	border:1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #d1d1d1 inset;
+	padding-left: 5%;
+ } 
+ .form-select span{
+ 	height: 40px;
+ 	line-height: 40px;
+ 	display: block;
+ 	font-size: 14px;
+ 	color: #666666;
+
+ }
+/* .form-select select{
+ 	width: 100%;
+ }*/
+.form-btn input{
+	margin: 5px 0; 
+	height: 40px;
+ 	line-height: 40px;
+ 	width: 100%;
+ 	background: #ff7d0b;
+ 	color: white;
+ 	font-size: 1.6rem;
+}
+ /*遮罩层结束*/
+
+
+
+ 
+

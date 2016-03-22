@@ -1,0 +1,118 @@
+.shopping{
+	position: relative;
+	content: "";
+ 	border:1px solid #cccccc;
+	margin: 15px 10px 0;
+
+}
+.shopping .shopping-header{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.4rem;
+	padding:0 5px;
+ 	border-bottom:1px solid #cccccc;
+
+}
+.shopping .shopping-header .shop-left{
+	float: left;
+ }
+.shopping .shopping-header .shop-right{
+	float: right;
+ }
+.shopping .shopping-header .shop-right a{
+ 	color: #ff7d0b;
+ }
+.shopping .shop-list{
+ 	position: relative;
+ 	 padding:10px 5px;
+ 	display: box;
+ 	display: -webkit-box;
+
+ } 
+.shopping .shop-list .shop-left a{
+ 	height: 75px;
+ 	width: 90px;
+ 	display: block;
+ }
+.shopping .shop-list .shop-left a img{
+ 	height: 100%;
+ 	width: 100%;
+}
+.shopping .shop-list .shop-right{
+	box-flex:1;
+	-webkit-box-flex:1;
+	margin-left:10px;
+}
+.shopping .shop-list .shop-right  p{
+	font-size: 1.4rem;
+	line-height: 25px;
+}
+.shopping .shop-list .shop-right  p.shop-title{
+	color:#333333;
+}
+.shopping .shop-list .shop-right  p.shop-price{
+	color:#666666;
+}
+.shopping .shop-list .shop-right  p.shop-price span{
+	color:#ff7d0b;
+}
+.shopping .shop-list .shop-right  .shop-munber{
+	color:#666666;
+}
+.shopping .shop-list .shop-right  .shop-munber span{
+	float: left;
+}
+.shopping .shop-list .shop-right  .shop-munber .shop-munber-btn{
+	float: left;
+}
+.shop-munber .shop-munber-btn #num{ 
+	width:28px; 
+	height:18px; 
+	line-height:20px;
+	border:1px solid #CCC; 
+	text-align:center;
+	float:left;
+ 
+}
+
+.shop-munber .shop-munber-btn #add,#jian{
+	width:20px;
+	height:20px ; 
+	float:left; 
+	border:1px solid #ccc;
+	background:#eee;
+	cursor:pointer;
+}
+
+.shopping .shop-total{
+	position: relative;
+ 	border-top:1px solid #cccccc;
+	display: box;
+ 	display: -webkit-box;
+	height: 40px;
+	padding-left: 5px;
+	font-size: 1.4rem;
+ }
+.shopping .shop-total-left{
+ 	line-height: 40px;
+	box-flex:1;
+ 	-webkit-box-flex:1;
+ 	color:#666666;
+ }
+ .shopping .shop-total-left span{
+	color:#ff7d0b;
+
+ }
+.shopping .shop-total .shop-btn{
+	display: block;
+ 	position: relative;
+  	height: 40px;
+  	background: #ff7d0b;
+ 	color: white;
+ 	width: 115px;
+ 	float: right;
+	line-height: 40px;
+	text-align: center;
+	font-size: 1.6rem;
+ }

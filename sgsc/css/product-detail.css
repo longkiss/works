@@ -1,0 +1,130 @@
+
+.main-banner a{
+	position: relative;
+}
+.main-banner a img{
+	position: relative;
+	width: 100%;
+}
+.describe{
+	padding:0 10px;
+ }
+.describe p{
+	font-size: 1.4rem;
+ 	line-height: 25px;
+ 	color: #333;
+ 	clear: both;
+ }
+.describe p .desc-text01{
+	font-size: 1.4rem;
+	float: left;
+}
+.describe p .desc-text02{
+	float: right;
+	font-size: 1.2rem;
+	color:#d0d0d0;
+}
+.describe p .desc-text03{
+
+	font-size: 1.4rem;
+	color: #cccccc;
+}
+
+.describe p .desc-text04{
+	font-size: 1.6rem;
+	color:#ff7d0b;
+	font-weight: bold;
+ }
+ .product-form{
+ 	height: 70px;
+ 	background: #f3f3f3;
+ 	padding: 10px 10px;
+ }
+.product-form .form-input{
+  	font-weight: 1.4rem;
+  	height: 30px;
+  	line-height: 30px;
+  }
+ .product-form .form-input input{
+ 	width: 30px;
+ 	text-align: center;
+ }
+.product-form a{
+ 	height: 35px;
+ 	width: 80px;
+ 	display: block;
+ 	float:left;
+ 	text-align: center;
+ 	line-height: 35px;
+
+ }
+.product-form a.reserve{
+	border:1px solid #ff7d0b;
+	color:#ff7d0b;
+	background: #fdede0;
+	margin-right: 10px;
+
+} 
+.product-form a.shopping-car{
+	background: #ff7d0b;
+	border:1px solid #ff7d0b;
+	color:white;
+  
+ 	
+ }
+ .detail-tab{
+ 	margin-top: 10px;
+
+ }
+ #tabbox{
+ 	overflow:hidden;
+ 	 margin:0 auto;
+}
+.tab_conbox{
+ 	border-top: none;
+}
+.tab_con{ 
+	display:none;
+}
+
+.tabs{
+	height: 32px;
+ 	width: 100%;
+}
+.tabs li{
+	height:31px;
+	line-height:31px;
+	float:left;
+	border-left:none;
+	margin-bottom: -1px;
+	background:;
+	overflow: hidden;
+	position: relative;
+	width: 50%; 
+	text-align: center;
+	background: #f3f3f3;
+
+}
+.tabs li a {
+	display: block;
+ 	outline: none;
+}
+.tabs li a:hover {
+	background: #ccc;
+}	
+.tabs .thistab,.tabs .thistab a:hover{
+	background: #ff7d0b;
+	color: white;
+ }
+
+.tab_con {
+	padding:12px;
+	font-size: 14px;
+	text-indent: 2em;
+	color:#585858;
+ 
+}
+.tab_con img{
+	width: 100%;
+	margin:10px 0;
+}

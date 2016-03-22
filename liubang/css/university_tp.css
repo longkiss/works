@@ -1,0 +1,164 @@
+body{
+    font-size: 1.2rem;
+}
+header{
+    background: white;
+}
+
+/*tab分开始*/
+.tab{
+    position: relative;
+    clear: both;
+ 
+}
+.tab ul.tab{
+	height:40px;
+	background:#ff552e;
+	display:box;
+	display:-moz-box;
+	display:-webkit-box;
+}
+.tab ul.tab li{
+	box-flex:1;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	font-size:1.4rem;
+}
+.tab ul.tab li.tab-now{
+	background:#e9340b;
+}
+.tab ul.tab li a{
+	color:white;
+	height:100%;
+	width:100%;
+	display:block;	
+}
+.part-title{
+    font-size: 1.6rem;
+}
+.tab-box{
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    margin:10px 0;
+}
+.tab-box .part-flex{
+    height: 30px;
+    border:1px solid #f94b23;
+    display: block;
+    box-flex:1;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 25px;
+}
+.tab-box .part-flex:last-child{
+    margin-right: 0;
+}
+/*tab部分结束*/
+.part-one{
+    height: 64px;
+    width: 100%;
+    position: relative;
+    background: #edeef0;
+    padding:10px 15px;
+
+}
+.part-one span{
+    height: 25px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    float: left;
+    background: #197ae5;
+    line-height: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.part-one a {
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #bfbfbf;
+    width: 66px;
+    text-align: center;
+    color: 6 c6c6c;
+    float: left;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+
+/*第二部分*/
+.part-two{
+    position: relative;
+    padding:15px;
+    content: "";
+
+}
+.part-two .two-cont{
+    position: relative;
+    content: "";
+}
+.part-two .two-cont .cont-left{
+    float: left;
+    width: 49%;
+
+}
+.part-two .two-cont .cont-right{
+    float: right;
+    width: 49%;
+}
+.part-two .two-cont a{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    border: 1px solid #c5defc;
+}
+.part-two .two-cont a .box-item{
+    padding:25% 50%;
+}
+
+.part-two .two-cont a img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.part-two .two-cont span.school{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

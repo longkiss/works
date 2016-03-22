@@ -1,0 +1,194 @@
+ 
+ /*大图切换开始*/
+.main-banner {
+  	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	float: left; 
+ }
+.main-banner a{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+.swipe-box {
+	float: left;
+	overflow: hidden;
+}
+.swipe-box img {
+	display: block;
+}
+.dotlist {
+	position: absolute;
+	height: 11px;
+	line-height: 5px;
+	-webkit-border-radius: 12px;
+	bottom: 8px;z-index: 11;
+	left: 44%;
+}
+#swipe-dot {
+	text-align: center;
+	margin: 2px 0 0 0;
+}
+#swipe-dot span {
+	display: inline-block;
+	margin: 0 3px;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	vertical-align: middle;
+	background: #ffffff;
+	-webkit-border-radius: 5px;
+}
+#swipe-dot .selected {
+	background: #933207;
+}
+ /*大图切换结束*/
+/*----------------------------------------------------*/
+
+ .product-list{
+ 	position: relative;
+ 	display: box;
+ 	display: -webkit-box;
+ 	height: 60px;
+ 	padding:10px;
+ }
+.product-list a.list-cont{
+	box-flex:1;
+	-webkit-box-flex:1;
+	display: block;
+	margin-right:10px;
+	text-align: center;
+	padding-top:5px;
+}
+.product-list .list-cont:last-child{
+	margin-right: 0;
+ }
+
+.product-list .list-cont.yellow{
+	background: #ff7900;
+
+}
+.product-list .list-cont.blue{
+	background: #51b401;
+}
+
+.product-list .list-cont.green{
+	background: #209ef5;
+}
+
+.product-list .list-cont.red{
+	background: #fa417a;
+}
+.product-list .list-cont img{
+	height: 32px;
+	width: 32px;
+	overflow: hidden;
+	display: block;
+	margin: 5px auto 0;
+}
+.product-list .list-cont span{
+	font-size: 1.4rem;
+	text-align: center;
+	display: block;
+	color: white;
+}
+/*----------------------------------------------------*/
+.recommend{
+	content: "";
+	position: relative;
+	padding:0 10px;
+	margin-bottom: 10px;
+  }
+.recommend .reco-header{
+	height: 40px;
+	background: #f3f3f3;
+ 	line-height: 40px;
+	text-align: center;
+}
+.recommend .reco-show1{
+	position: relative;
+	content:'';
+ }
+.recommend .show1-left{
+	width: 66%;
+	float:left;
+
+}
+.recommend .show1-left a{
+	display: block;
+	position: relative;
+}
+.recommend .show1-left a img{
+	height: 100%;
+	width: 100%
+}
+.recommend .show1-right{
+	width: 31.6%;
+	float: right;
+}
+.recommend .show1-right a{
+	display: block;
+	position: relative;
+	height: 50%;
+}
+.recommend .show1-right a img{
+ 	width: 100%
+}
+.recommend .reco-show2{
+	display: block;
+	position: relative;
+}
+.recommend .reco-show2 a{
+	width: 32%;
+	display: block;
+	float: left;
+	margin-right: 2%;
+}
+.recommend .reco-show2 a:last-child{
+	margin-right: 0;
+}
+.recommend .reco-show2 a img{
+	height: 100%;
+	width: 100%;
+}
+/*新增内容开始*/
+.box{
+	 height: 39px;
+	 overflow: hidden;
+	position: relative;
+ }
+.box .box-content{
+	height: 50px;
+	position: relative;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding-left: 10px;
+	border-top: 1px solid #006dcc;
+}
+ul.nowrap{
+	white-space:nowrap;
+	position: relative;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #c3c3c3;
+}
+ ul.nowrap li{
+	 position: relative;
+	 display: inline-block;
+	 height: 30px;
+	 line-height: 30px;
+	 width: 60px;
+	 text-align: center;
+
+
+
+ }
+ ul.nowrap li a{
+	 display: block;
+	 text-align: center;
+	 font-size: 1.4rem;
+ }

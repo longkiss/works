@@ -1,0 +1,173 @@
+header{
+    background: white;
+}
+body{
+    font-size: 1.2rem;
+}
+/*搜索部分开始*/
+.search-from{
+    position: relative;
+    padding-bottom: 10px;
+}
+.search-from .form-box{
+    height: 30px;
+    font-size: 1.2rem;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    margin: 0 50px;
+    border: 1px solid #f94b23;
+    line-height:30px;
+    background:  #f94b23;
+}
+.search-from .form-box input{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex:1;
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+.search-from .form-box button{
+    height: 30px;
+    line-height: 30px;
+    width: 40px;
+    text-align: center;
+    border:none;
+    background: #f94b23;
+    font-size: 1.2rem;
+    color: white;
+}
+/*广告位开始*/
+.menber-banner{
+    position: relative;
+    height: 100px;
+    background: black;
+    line-height: 100px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+/*广告位结束*/
+/*第一部分开始*/
+.part-one{
+    position: relative;
+    clear: both;
+    padding:18px 15px;
+    height: 100px;
+    border-top: 1px solid #c8c8c8;
+    margin-top: 10px;
+
+}
+.part-title{
+    font-size: 1.6rem;
+}
+.part-one-box{
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    margin:10px 0;
+}
+.part-one-box .part-flex{
+    height: 30px;
+    border:1px solid #f94b23;
+    display: block;
+    box-flex:1;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 25px;
+}
+.part-one-box .part-flex:last-child{
+    margin-right: 0;
+}
+/*第一部分结束*/
+
+/*第二部分开始*/
+.part-two{
+    position: relative;
+    content: "";
+    border-top: 1px solid #c8c8c8;
+}
+.part-two-header{
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+
+}
+.part-two-header span{
+    margin-left: 15px;
+    font-size: 1.6rem;
+}
+.part-two-cont{
+    padding: 15px;
+}
+.part-two-cont .tow-cont-border{
+    border-bottom: 1px solid #c8c8c8;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    padding-bottom: 15px;
+}
+.two-cont-left{
+    width:104px;
+    height: 80px;
+    overflow:hidden;
+}
+.two-cont-left img{
+    height: 100%;
+    width: 100%;
+}
+
+.two-cont-right{
+    -moz-box-flex: 1;
+    -webkit-box-flex:1;
+    height: 80px;
+    overflow:hidden;
+    margin-left:10px;
+    position: relative;
+
+}
+.two-cont-right .right-title{
+    height: 20px;
+}
+.two-cont-right .realize{
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    border:1px solid #f94b23;
+    color: #f94b23;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.2rem;
+    line-height: 20px;
+    
+}
+.two-cont-right .right-title span{
+    font-size: 1.4rem;
+    color:#565555;
+    float: left;
+    display: block;
+}
+.two-cont-right .right-title i.look{
+    height: 12px;
+    width: 35px;
+    background:url("../images/index-look.jpg");
+    background-size: 35px 12px;
+    display: block;
+    float: left;
+    margin: 3px 0 0 10px;
+}
+.two-cont-right .text01{
+    color: #dddde2;
+    display: block;
+}
+
+
+
+
+

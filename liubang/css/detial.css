@@ -1,0 +1,176 @@
+body{
+    font-size: 1.2rem;
+}
+header{
+    background: white;
+}
+header a.header-logo{
+    margin: 0px 0  0 12px;
+    float:left;
+    height: 40px;
+    width:50px;
+    background:url("../images/header-logo.jpg") no-repeat;
+    background-size:  50px 40px;
+}
+header .header-right{
+    height: 40px;
+    width: auto;
+    position: absolute;
+    right: 10px;
+    top: 0;
+
+    font-size: 1.4rem;
+
+}
+header .header-right a.detail-add{
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    display: block;
+    background: url("../images/detial-add.jpg") no-repeat;
+    background-size: 30px 30px;
+}
+
+/*第一部分开始*/
+.part-one{
+    position: relative;
+    clear: both;
+    border-top: 1px solid #c8c8c8;
+    padding:0 15px;
+}
+.part-one p{
+    height: 30px;
+    font-size: 1.6rem;
+    line-height: 30px;
+    text-align: left;
+}
+.part-one-bottom{
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    height: 31px;
+    font-size: 1.4rem;
+    line-height: 31px;
+
+}
+.part-one-bottom span{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex:1;
+    display: block;
+    text-align: center;
+    color: #aaaaaa;
+}
+/*第一部分结束*/
+/*banner部分开始*/
+.detial-banner{
+    padding:11px 0;
+    background: #f6f5f6;
+    position: relative;
+}
+.detial-banner img{
+    height: 100%;
+    width: 100%;
+}
+/*第二部分开始*/
+.part-two{
+    position: relative;
+    content: "";
+
+}
+.part-two-cont{
+    position: relative;
+    /*height: 180px;*/
+    padding: 5px 13px;
+}
+.part-two-cont p{
+    height: 25px;
+    line-height: 25px;
+    font-size: 1.4rem;
+
+}
+.part-two-cont p.time{
+    line-height: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    color: #565555;
+}
+.part-two-cont a.detial-news{
+    height: 22px;
+    line-height: 22px;
+    font-size: 1.2rem;
+    display: block;
+
+}
+.two-cont-show{
+    position: relative;
+    margin-top: 5px;
+}
+.two-cont-show a{
+    height: 77px;
+    width: 89px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.two-cont-show a img{
+    height: 100%;
+    width: 100%;
+}
+.two-cont-bottom{
+    height: 30px;
+    line-height: 30px;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    border-top: 1px solid #c8c8c8;
+}
+.two-cont-bottom a{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex:1;
+    display: block;
+    text-align: center;
+}
+.two-cont-bottom a.detail-icon{
+    background: url("../images/detial-icon.jpg") no-repeat;
+    background-size: 25px 25px;
+}
+.two-cont-bottom a span{
+    display: block;
+
+    
+}
+.span{
+    height: 12px;
+    background: #eeebee;
+}
+.toushu{
+    position: relative;
+    height: 44px;
+    padding:40px 15px 0
+
+}
+.toushu-way{
+
+    height: 35px;
+}
+.toushu .toushu-way .way-left{
+
+    line-height: 35px;
+    font-size: 1.4rem;
+    float: left;
+}
+.toushu .toushu-way	a.way-left{
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    display: block;
+    color: #ff712c;
+    border:1px solid #ff712c;
+    border-radius: 5px;
+    float: right;
+}
+footer{
+    border-top: none;
+}

@@ -1,0 +1,209 @@
+body{
+    font-size: 1.2rem;
+}
+header{
+    background: white;
+}
+header a.header-logo{
+    margin: 0px 0  0 12px;
+    float:left;
+    height: 40px;
+    width:50px;
+    background:url("../images/header-logo.jpg") no-repeat;
+    background-size:  50px 40px;
+}
+header .header-right{
+    float: right;
+    line-height: 40px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+header .header-right a.register{
+    margin-right: 15px;
+}
+/*大图切换开始*/
+.main-banner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.main-banner a{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.swipe-box {
+    float: left;
+    overflow: hidden;
+}
+.swipe-box img {
+    display: block;
+}
+.dotlist {
+    position: absolute;
+    height: 11px;
+    line-height: 5px;
+    -webkit-border-radius: 12px;
+    bottom: 8px;z-index: 11;
+    left: 44%;
+}
+#swipe-dot {
+    text-align: center;
+    margin: 2px 0 0 0;
+}
+#swipe-dot span {
+    display: inline-block;
+    margin: 0 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    vertical-align: middle;
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+}
+#swipe-dot .selected {
+    background: #933207;
+}
+/*大图切换结束*/
+/*第一部分开始*/
+.part-one{
+    position: relative;
+    clear: both;
+    margin:0 5px;
+    padding-top: 30px;
+}
+.part-one-cont{
+    /*display: box;*/
+    /*display: -webkit-box;*/
+    /*display: -moz-box;*/
+    height: 55px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.part-one-cont .one-cont-box{
+    position: relative;
+    border: 1px solid #c8c8c8;
+    /*-moz-box-flex: 1;*/
+    /*-webkit-box-flex: 1;*/
+    /*box-flex:1;*/
+    height: 55px;
+    width: 49%;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+
+}
+.part-one-cont .one-cont-box.left{
+
+    float: left;
+}
+.part-one-cont .one-cont-box.right{
+
+    float: right;
+}
+
+.part-one-cont .box-left{
+    position: relative;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex:1;
+    height: 55px;
+}
+.part-one-cont .box-left .box-title{
+    color:#484848;
+    margin-left: 3px;
+    font-size: 1.4rem;
+}
+.part-one-cont .box-left .box-detail{
+    margin-left: 3px;
+    color: #c8c8c8;
+    font-size: 1.2rem;
+}
+.part-one-cont .box-right{
+    position: relative;
+    height: 55px;
+    width: 81px;
+    overflow: hidden;
+}
+.part-one-cont .box-right img{
+    height: 100%;
+    width: 100%;
+}
+
+/*第一部分结束*/
+
+/*第二部分开始*/
+.part-two{
+    position: relative;
+    content: "";
+    border-top: 2px solid #c8c8c8;
+}
+.part-two-header{
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 2px solid #c8c8c8;
+}
+.part-two-header span{
+    margin-left: 15px;
+}
+.part-two-cont{
+    padding: 15px;
+}
+.part-two-cont .tow-cont-border{
+    border-bottom: 1px solid #c8c8c8;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    padding-bottom: 15px;
+}
+.two-cont-left{
+    width:104px;
+    height: 80px;
+    overflow:hidden;
+}
+.two-cont-left img{
+    height: 100%;
+    width: 100%;
+}
+
+.two-cont-right{
+    -moz-box-flex: 1;
+    -webkit-box-flex:1;
+    height: 80px;
+    overflow:hidden;
+    margin-left:10px;
+    font-size: 1.2rem;
+}
+.two-cont-right .right-title{
+    height: 20px;
+}
+.two-cont-right .right-title span{
+    font-size: 1.4rem;
+    color:#565555;
+    float: left;
+    display: block;
+}
+.two-cont-right .right-title i.look{
+    height: 12px;
+    width: 35px;
+    background:url("../images/index-look.jpg");
+    background-size: 35px 12px;
+    display: block;
+    float: left;
+    margin: 3px 0 0 10px;
+}
+.two-cont-right .text01{
+    color: #dddde2;
+    display: block;
+
+}
+
+	
+	
+	
+	
+	

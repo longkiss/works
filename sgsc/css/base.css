@@ -1,0 +1,143 @@
+/*公共样式*/
+@charset "UTF-8";
+html,body{font-family:Helvetica,"microsoft yahei";background:#fff;font-size:10px}
+body{position:relative;overflow-x:hidden;-webkit-overflow-scrolling:touch}
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,time,button{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption{font-weight:normal;font-style:normal}
+ul,li,dl,dt,dd{list-style:none}
+fieldset,iframe,img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+article,aside,footer,header,hgroup,nav,section,figure,figcaption,video{display:block}
+a{text-decoration:none;color:#333}
+input,select{outline:0;border:0}
+input[type="text"]{background-position-y:-1px}
+i,cite,em,var,address{font-style:normal}
+a{outline:0}
+a:active{outline:0}
+*{-webkit-tap-highlight-color:rgba(255,0,0,0)}
+b,strong{font-weight:bold}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfix{zoom:1;clear:both;}
+@media screen and (max-device-width:320px){body{-webkit-text-size-adjust:none}
+}
+@media screen and (max-device-width:480px){body{-webkit-text-size-adjust:none}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2){body{-webkit-text-size-adjust:none}
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){body{-webkit-text-size-adjust:none}
+}
+
+
+/*头部开始*/
+header{
+	height: 50px;
+ 	position: relative;
+	background: #2fae3d;
+	text-align: center;
+}
+header a.logo{
+	position: relative;
+	top:5px;
+ 	float: left;
+	display: inline-block;
+	height: 40px;
+	width: auto;
+}
+header a.logo img{
+	position: relative;
+	height: 40px;
+	width: auto;
+}
+.header-right{
+	height: 50px;
+	width:auto;
+ 	float:right;
+ 	position: relative;
+ 	text-align: right;
+ 	margin-right: 5px;
+ 
+}
+.header-right a{
+	display: block;
+ 	line-height: 50px;
+	text-align: center;
+	float: left;
+ 
+}
+.header-right a i.header-icon{
+	height: 25px;
+	width: 25px;
+ 	display: block;
+	float: left;
+	margin-top: 8px;
+	overflow: hidden;
+}
+.header-right a i.header-icon img{
+	height: 25px;
+	width:25px;
+}
+.header-right a span{
+	float: left;
+	color:white;
+	font-size: 1.4rem;
+}
+ 
+header a.header-return,a.header-home{
+	display: block;
+	height: 30px;
+	width: 30px;
+	overflow: hidden;
+	position: absolute;
+	left: 10px;
+	top:10px;
+  }
+ header a.header-collection{
+	display: block;
+	height: 30px;
+	width: 30px;
+	overflow: hidden;
+	position: absolute;
+ 	top:10px;
+	right: 10px;
+	float: right;
+}
+header a.header-return img,a.header-home img,a.header-collection img{
+ 	position: relative;
+ 	height: 30px;
+ 	width: 30px;
+}
+
+header h3{
+	text-align: center;
+	color: white;
+	position: relative;
+ 	font-size: 1.6rem;
+	font-weight: bold;
+	display: inline-block;
+	margin:0 auto;
+	line-height: 50px;
+}
+/*头部结束*/
+/*尾部开始*/
+footer{
+	height: 50px;
+	border-top: 2px solid #4a9829;
+	font-size: 1.4rem;
+
+}
+footer .link{
+	line-height: 20px;
+	text-align: center;
+	margin-top: 5px;
+  }
+footer .link a{
+ 
+}
+footer .link  span{
+ 
+}
+footer p{
+	line-height: 20px;
+	text-align: center;
+}
+/*尾部结束*/

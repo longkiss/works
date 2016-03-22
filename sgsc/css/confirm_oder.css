@@ -1,0 +1,172 @@
+.location{
+	margin:0 10px;
+ 	border:1px solid #cccccc;
+ 	position: relative;
+ 	margin-top: 10px;
+ }
+.location .address{
+	position: relative;
+	padding: 10px 0 10px 5px;
+	font-size: 14px;
+	content: "";
+	border-bottom:1px solid #cccccc;;
+
+} 
+.location .address input{
+	float: left;
+	margin-top: 3px;
+ }
+.location .address label{
+	float: left;
+ }
+.location .default-address label span:last-child{
+	margin-left: 50px;
+}
+.location .address.new-address{
+	border:none;
+}
+.message .message-header{
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+	padding-left: 5px;
+}
+.message textarea{
+	border:none;
+	background: #f4f4f4;
+	width: 90%; 
+	max-width: 90%;
+	margin:10px;
+	height: 50px;
+	text-align: left;
+	text-indent: 2em;
+
+}
+.message textarea:focus{
+	border:none !important;
+	outline: none;
+}
+.shopping{
+	position: relative;
+	content: "";
+ 	border:1px solid #cccccc;
+	margin: 15px 10px 0;
+ 
+}
+.shopping .shopping-header{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.4rem;
+	padding:0 5px;
+ 	border-bottom:1px solid #cccccc;
+
+}
+.shopping .shopping-header .shop-left{
+	float: left;
+ }
+.shopping .shopping-header .shop-right{
+	float: right;
+ }
+.shopping .shopping-header .shop-right a{
+ 	color: #ff7d0b;
+ }
+.shopping .shop-list{
+ 	position: relative;
+ 	 padding:10px 5px;
+ 	display: box;
+ 	display: -webkit-box;
+ 	display: -moz-box;
+
+ } 
+.shopping .shop-list .shop-left a{
+ 	height: 75px;
+ 	width: 90px;
+ 	display: block;
+ }
+.shopping .shop-list .shop-left a img{
+ 	height: 100%;
+ 	width: 100%;
+}
+.shopping .shop-list .shop-right{
+	box-flex:1;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	margin-left:10px;
+}
+.shopping .shop-list .shop-right  p{
+	font-size: 1.4rem;
+	line-height: 25px;
+}
+.shopping .shop-list .shop-right  p.shop-title{
+	color:#333333;
+}
+.shopping .shop-list .shop-right  p.shop-price{
+	color:#666666;
+}
+.shopping .shop-list .shop-right  p.shop-price span{
+	color:#ff7d0b;
+}
+.shopping .shop-list .shop-right  .shop-munber{
+	color:#666666;
+	font-size: 1.4rem;
+}
+.shop-type{
+ 	border-top:1px solid #cccccc;
+ 	font-size: 1.4rem;
+	position: relative;	
+	padding:10px 0 0 10px;
+ } 
+.shop-type p{
+	line-height: 25px;
+}
+.shop-type .form-input{
+	height: 30px;
+	line-height: 30px;	
+}
+ .shop-type .form-input label span{
+	color: #ff7d0b;
+
+}
+.shopping .shop-total{
+	position: relative;
+ 	border-top:1px solid #cccccc;
+  	height: 40px;
+	padding-left: 5px;
+	font-size: 1.4rem;
+	line-height: 40px;
+ }
+.shopping .total-left{
+   	color:#666666;
+  	float: left;
+ }
+ .shopping .total-right{
+	color:#ff7d0b;
+	float: right;
+	margin-right: 10px;
+
+ }
+ .price{
+ 	text-align: right;
+   	color:#666666;
+   	padding-right: 20px;
+   	height: 30px;
+   	line-height: 30px;
+   	font-size: 1.4rem;
+}
+.price span{
+	color: #ff7d0b;
+
+ }
+ .form-submit{
+  	margin:30px 10px ;
+ }
+.form-submit input{
+	height: 35px;
+	font-size: 1.4rem;
+	color: white;
+	text-align: center;
+	background:#ff7d0b;
+	width: 100%;
+}

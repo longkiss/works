@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/base.css" type="text/css" rel="stylesheet">
+    <link href="css/tell.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="icon01.ico" media="screen" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /> 
+ 	<title>手机绑定</title>
+</head>
+<body>
+	<!-- 头部开始 -->
+	<div class="header row">
+		<div class="container">
+			<img src="images/logo.png" class="logo hidden_500">
+			<div class="phone visible_500" >
+		        <div class="phones" id="phones"></div>
+		    </div>
+			<p>兴国科技</p>
+			<div class="hidden_500 p_center">
+				<a href="test.html">任务中心</a>
+				<a href="personal_information.html" class="now01">个人中心</a>
+  			</div>
+			<div class="touxiang hidden_500">
+				<img src="images/1111.png" alt="">
+			</div>
+			<div class="lo_re hidden_500">
+				<a href="login.html">登录</a>
+				<span>|</span>
+				<a href="register.html">注册</a>
+			</div>
+          </div>
+  	</div>
+ 	<!-- 头部结束 -->
+ 	<!-- 遮罩层 -->
+ 	<div class="click_visible" id="visibles">
+ 		<div class="exit">
+ 			<a href="#">退出登录</a>
+ 		</div>
+ 		<div class="touxiang1">
+ 			<img src="images/1111.png" alt="">
+ 			<a href="#"> 天堂不寂寞</a>
+ 		</div>
+ 		<div class="subNavBox">
+			<div class="currentDd">
+				<a href="test.html"  class="test">任务中心</a>
+			</div>
+			 
+			<div class="subNav">个人中心</div>
+			<ul class="navContent">
+				<li ><a href="personal_information.html">个人资料</a></li>
+				<li><a href="email.html">邮箱绑定</a></li>
+				<li><a href="tell.html">手机绑定</a></li>
+				<li><a href="password.html">修改密码</a></li>
+			</ul>
+  		</div>
+   	</div>
+ 	<!-- 遮罩层 -->
+ 	<!-- 内容开始 -->
+ 	<div class="row-fluid">
+		<div class="container-fluid">
+			
+ 			<div class="span12">
+	 			<div class="span3">
+	 				<ul class="ul1">
+ 	 					<li><a href="personal_information.html">个人资料</a></li>
+						<li><a href="email.html">邮箱绑定</a></li>
+						<li class="now"><a href="tell.html">手机绑定</a></li>
+						<li><a href="password.html">修改密码</a></li>
+	 				</ul>
+	  			</div>
+	 			<div class="span8 spans">
+					<div class="span8 closed">
+						登录失败请正确填写用户信息
+						<span class="closes" id="closes"></span>
+					</div>
+	 				<form action="#" method="post" id="form05">
+	 					<div class="span8">
+							<label class="labels">手机号:</label>
+							<span>12345678932</span>
+ 						</div>
+   	 					<div class="span8">
+							<input type="button" value="立即获取验证码">
+						</div>
+						<div class="span8">
+							<label for="code">验证码：</label>
+							<input type="text" value="" name="verification" id="code" class="code" placeholder="请输入验证码" required>
+							<a href="" class="codes"><img src="images/yanzhengma.jpg" alt=""></a>
+						</div>
+						<div class="span8">
+							<input type="button" value="立即绑定">
+						</div>
+						 
+				 	</form>
+	  			</div>
+			</div> 
+ 		</div>
+ 	</div>	
+  	<!-- 内容结束 -->
+ 	<!-- 尾部开始 -->
+	<div class="footer row">
+		<div class="container">
+			<p>Copyright &copy  2014 广州兴国新能源科技有限公司  粤ICP备15069944号-1</p>
+        </div>
+ 	</div>
+  	<!-- 尾部结束 -->
+	<script src="js/jquery-1.11.1.min.js"></script>  
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/forms.js"></script>
+
+	<script type="text/javascript" charset="utf-8"> 
+		MyValidator05.init(); 
+
+
+
+		// 登录失败时弹出显示
+		$("#closes").click(
+				function(){
+					$(".closed").css("display","none")
+ 				}
+
+			)
+
+	// 手机端显示(遮罩层)
+      $("#phones").click(function(){
+      	if($("#visibles").css('display')=='none'){
+     		$("#visibles").css("height",$(document).height());     
+       	    $("#visibles").css("width",$(document).width()); 
+     		$("#visibles").css("display","block")
+     	}else{
+     		$("#visibles").css("height",$(document).height());     
+       	    $("#visibles").css("width",$(document).width()); 
+     		$("#visibles").css("display","none")
+     	}
+      })
+ 	  //遮罩层下拉菜单
+     $(function(){
+	$(".subNav").click(function(){
+				$(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd")
+
+				$(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
+	 			// 修改数字控制速度， slideUp(500)控制卷起速度
+				$(this).next(".navContent").slideToggle(500).siblings(".navContent").slideUp(500);
+		})	
+	})
+  	</script>
+  	 
+
+
+</body>
+</html>

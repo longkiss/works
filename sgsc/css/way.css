@@ -1,0 +1,95 @@
+.shopping{
+	position: relative;
+	content: "";
+	margin: 15px 10px 0;
+
+}
+ .shopping .shopping-header .shop-left{
+	float: left;
+ }
+.shopping .shopping-header .shop-right{
+	float: right;
+ }
+.shopping .shopping-header .shop-right a{
+ 	color: #ff7d0b;
+ }
+.shopping .shop-list{
+ 	position: relative;
+ 	 padding:10px 5px;
+ 	display: box;
+ 	display: -webkit-box;
+
+ } 
+.shopping .shop-list .shop-left a{
+ 	height: 75px;
+ 	width: 90px;
+ 	display: block;
+ }
+.shopping .shop-list .shop-left a img{
+ 	height: 100%;
+ 	width: 100%;
+}
+.shopping .shop-list .shop-right{
+	box-flex:1;
+	-webkit-box-flex:1;
+	margin-left:10px;
+}
+.shopping .shop-list .shop-right  p{
+	font-size: 1.4rem;
+	line-height: 20px;
+}
+.shopping .shop-list .shop-right  p.shop-title{
+	color:#333333;
+	font-weight: bold;
+}
+.shopping .shop-list .shop-right  p.shop-price{
+	color:#666666;
+}
+.shopping .shop-list .shop-right  p.shop-price span{
+	color:#ff7d0b;
+}
+.shopping .shop-oder{
+	position: relative;
+
+}
+.shopping .shop-oder p{
+	font-weight: 1.4rem;
+	color: #666;
+	
+}
+.shopping .shop-oder p.shop-price span{
+	font-size: 1.6rem;
+	color: #ff7d0b;
+
+}
+.shop-way{
+	margin-top: 10px;
+	height: 35px;
+	line-height: 35px;
+	background: #f3f3f3;
+	padding-left:10px;
+}
+form .form-input{
+	height: auto;
+	width: auto;
+	font-size: 1.4rem;
+	height: 30px;
+	line-height: 30px;
+}
+form .form-submit{
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+form .form-submit .submit-btn{
+	height: 35px;
+	font-size: 1.4rem;
+	margin:0 auto;
+	color: white;
+	background: #ff7d0b;
+	width: 60%;
+	border-radius: 3px;
+ 
+
+
+}

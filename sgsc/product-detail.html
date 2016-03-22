@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no">
+ 	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/product-detail.css">
+</head>
+<body>
+<!-- 头部开始 -->
+<header>
+	<a href="javascript:history.go(-1);" class="logo">
+		<img src="images/header-logo.jpg" alt="">
+	</a>
+	<div class="header-right">
+		<a href="#" class="menu">
+			<i class="header-icon"><img src="images/header-menu.jpg" alt=""></i>
+			<span>菜单</span>
+		</a>
+		<a href="#" class="person">
+			<i class="header-icon"><img src="images/header-person.jpg" alt=""></i>
+			<span>用户</span>
+			</a>
+		<a href="#" class="shopping">
+			<i class="header-icon"><img src="images/header-shopping.jpg" alt=""></i>
+			<span>购物车</span>
+		</a>
+	</div>
+</header>
+<!-- 头部结束-->
+<!--大图开始-->
+<div class="main-banner clearfix" >
+	<a href="#" class="banner-img">
+		<img src="images/product-detail-banner.jpg" alt="">
+	</a>
+	<div class="describe">
+		<p>
+			<span class="desc-text01">紫薯仔原味软糯小紫薯紫黑红薯</span>
+			<span class="desc-text02">收藏商品</span>
+		</p>
+		<p>
+			<span class="desc-text03">价格：</span>
+			<span class="desc-text04">￥350</span>
+		</p>
+		<p>售出<span>0</span>件(<span>0</span>条评论)</p>
+ 	</div>
+</div>
+<section class="product-form clearfix">
+	<form action="">
+		<div class="form-input">
+			<span>购买数量：</span>
+			<input type="text" value="1" name="text">
+			<span>件(库存xxx件)</span>
+		</div>
+		<a href="oder.html" class="reserve">立即预定</a>
+		<a href="shopping.html" class="shopping-car">加入购物车</a>
+  	</form>
+ </section>
+<!--大图结束-->
+<section class="detail-tab">
+	<div id="tabbox">
+	    <ul class="tabs" id="tabs">
+	       <li><a href="#">商品详情</a></li>
+	       <li><a href="#">评论</a></li>
+ 	    </ul>
+	    <ul class="tab_conbox" id="tab_conbox">
+	        <li class="tab_con">
+	           <p>紫薯（Ipomoea batatas (L.) Poir.旋花科 Convolvulaceae 番薯属）又叫黑薯，薯肉呈紫色至深紫色。它除了具有普通红薯的营养成分外，还富含硒元素和花青素。紫薯为花青素的主要原料之一 。</p>
+	           <img src="images/product-detail-banner.jpg" alt="">
+	           <p> 茎基部四棱形，有翅；叶腋内常生有形状大小不一的零余子；单叶互生，中部以上叶对生，叶卵状心形至心状矩圆形，顶端尾状，基部宽心形，两面无毛；有时压干后，叶边缘向内卷褶。</p>
+	        </li>
+	            
+	        <li class="tab_con">
+		         <p>紫薯（Ipomoea batatas (L.) Poir.旋花科 Convolvulaceae 番薯属）又叫黑薯，薯肉呈紫色至深紫色。它除了具有普通红薯的营养成分外，还富含硒元素和花青素。紫薯为花青素的主要原料之一 。</p>
+ 		           <p> 茎基部四棱形，有翅；叶腋内常生有形状大小不一的零余子；单叶互生，中部以上叶对生，叶卵状心形至心状矩圆形，顶端尾状，基部宽心形，两面无毛；有时压干后，叶边缘向内卷褶。</p>
+	        </li>
+	     </ul>
+	  </div>
+ </section>
+  <!-- 页尾部分开始 -->
+<footer>
+	<div class="link">
+		<a href="">商铺首页</a><span>|</span>
+		<a href="">会员中心</a><span>|</span>
+		<a href="">关于我们</a>
+	</div>
+	<p class="clearfix">copyright@2015xxx.com </p>
+ </footer>
+<!-- 页尾部分结束 -->
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	jQuery.jqtab = function(tabtit,tab_conbox,shijian) {
+		$(tab_conbox).find("li").hide();
+		$(tabtit).find("li:first").addClass("thistab").show(); 
+		$(tab_conbox).find("li:first").show();
+	
+		$(tabtit).find("li").bind(shijian,function(){
+		  $(this).addClass("thistab").siblings("li").removeClass("thistab"); 
+			var activeindex = $(tabtit).find("li").index(this);
+			$(tab_conbox).children().eq(activeindex).show().siblings().hide();
+			return false;
+		});
+	
+	};
+	/*调用方法如下：*/
+	$.jqtab("#tabs","#tab_conbox","click");
+	
+	$.jqtab("#tabs2","#tab_conbox2","mouseenter");
+	
+});
+</script>
+ 
+ </body>
+</body>
+</html>

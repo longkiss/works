@@ -1,0 +1,62 @@
+.register{
+	position: relative;
+	content: "";
+	padding:10px;
+}
+.register h3{
+	font-size: 1.6rem;
+	color: #2fae3d;
+	line-height: 40px;
+}
+.register .form-input{
+	position: relative;
+	display: box;
+	display: -webkit-box;
+	height: 35px;
+	margin-bottom: 15px;
+}
+.register label{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	height: 35px;
+	width: 65px;
+	font-size: 1.4rem;
+	line-height: 35px;
+	color: #666666;
+}
+.register .form-input input{
+	display: block;
+	box-flex:1;
+	-webkit-box-flex:1;
+	height: 35px;
+	border:1px solid #e6e6e6;
+	padding-left: 70px;
+	box-shadow: 1px 1px 2px #e6e6e6 inset;
+}
+.register .form-submit{
+	position: relative;
+	display: box;
+	display: -webkit-box;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+ }
+.register .form-submit input{
+ 	display: block;
+	box-flex:1;
+	-webkit-box-flex:1;
+	height: 35px;
+	background: #ff7d0b;
+	font-size: 1.4rem;
+	color: white;
+	font-weight:bold;
+
+ }
+.register p{
+	line-height: 40px;
+	font-size: 1.4rem;
+}
+.register p a{
+	color: #2fae3d;
+}

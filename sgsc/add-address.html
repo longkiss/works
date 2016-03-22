@@ -1,0 +1,90 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>收货地址页面</title>
+	<meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no">
+ 	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/add-address.css">
+</head>
+<body>
+<header>
+	<a href="#" class="header-return">
+		<img src="images/header-return.jpg" alt="">
+	</a>
+	<h3>收货地址</h3>
+ </header>
+ <section class="address">
+ 	<div class="address-cont">
+ 		<p class="name">刘彬彬(1501230468)</p>
+ 		<p class="location">
+ 			<a href="#">中国</a><a href="#">广东</a><a href="#">广州</a><a href="#">海珠</a>
+ 		</p>
+ 		<p class="adderss-detail">海珠路23号302室</p>
+ 	</div>
+ 	<div class="address-btn">
+ 		<div class="box compile">
+ 			<a href="#" id="bianji">
+ 				<img src="images/compile.jpg" alt="" >
+ 				<span>编辑</span>
+ 			</a>
+ 	 		
+  		</div>
+ 		<div class="box delete">
+ 			<a href="#">
+ 				<img src="images/delete.jpg" alt="" >
+  				<span>删除</span>
+ 			</a>
+    	</div>
+ 	</div>
+    </section>
+	<!-- 遮罩层开始-->
+ 	<section class="zhezhao" id="zhe">
+		<div class="add">
+			<div class="add-header">
+				<h3>新增地址</h3>
+				<span class="close">
+					<img src="images/close-btn.jpg" alt="">
+				</span>
+			</div>
+			<div class="add-content">
+				<form action="">
+					<div class="form-input">
+						<input type="text" placeholder="刘彬彬" value="" name="">
+					</div>
+					<div class="form-select">
+						<span>中国 广东 广州 海珠区</span>
+
+						 <!-- <select name="" id="">
+						 	<option value="">xxxxxxxxxxx</option>
+						 	<option value="">xxxxxxxxxxx</option>
+						 	<option value="">xxxxxxxxxxx</option>
+						 </select> -->
+					</div>
+					<div class="form-input">
+						<input type="text" placeholder="xxxxxxx" value="" name="">
+					</div>
+ 					<div class="form-input">
+						<input type="text" placeholder="1501230468" value="" name="">
+					</div>
+					<div class="form-btn">
+						<input type="button" value="编辑地址">
+					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+  	</section>
+
+	<!-- 遮罩层结束-->
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script>
+		$('#bianji').click(function(){
+			$('#zhe').show();
+		})
+		$('.close').bind("click",function(){
+			$('#zhe').hide();
+		})
+
+	</script>
+   </body>
+</html>

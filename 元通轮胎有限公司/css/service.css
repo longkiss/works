@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*banner部分*/
+.banner{ height:274px; width:100%px; background:url(../images/index/banner_bg.jpg) repeat-x; margin-top:-20px;}
+.banner a{ height:379px; width:1124px; display:block; margin:0 auto;}
+
+
+
+/*主体部分*/
+	/*新闻中心*/
+.sub_nav{ width:1124px; height:67px;  margin:0 auto;}
+.sub_nav a{ margin-left:5px; text-align:center; line-height:67px; color:#565657; font-size:12px; font-family:"宋体";}
+.sub_nav a.now{ color:#0968bb}
+.sub_nav a:hover{ color:#0968bb}
+
+
+.main{width:100%; height:619px;}
+.main .support_bg{ width:1124px; height:562px;  margin:0 auto;}
+.main .support_bg .menu_left{ width:219px; height:560px; border:solid 1px  #cddeed; float:left;}
+.main .support_bg .menu_left .span4{ margin:0; width:219px;}
+.main .support_bg .menu_left .span4 .accordion-heading{ background: url(../images/service/images/menu_bbg.jpg) no-repeat;text-align:center; font-family:"宋体"; font-size:14px; font-weight:bold;  }
+.main .support_bg .menu_left .span4 .accordion-heading:hover{background: url(../images/service/images/menu_now.jpg) no-repeat;}
+.main .support_bg .menu_left .span4 .accordion-heading .accordion-toggle{ color:#000; text-decoration:none;}
+.main .support_bg .menu_left .span4 .accordion-heading .accordion-toggle:hover{ color:#FFF;}
+.main .support_bg .menu_left .span4 .accordion-inner a{ padding-left:80px; color:#656666; text-decoration:none;}
+.main .support_bg .menu_left .span4 .accordion-inner:hover{ background:#d9edff;color:#188fca}
+.main .support_bg .menu_left .span4 .accordion-inner:hover a{ color:#188fca}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main .support_bg .text_right{ width:866px; height:560px;  border:solid 1px  #cddeed; float:right;}
+.main .support_bg .text_right .text_top{ margin-top:18px; margin-left:38px; color:#05325a; font-family:"微软雅黑"; font-weight:600; font-size:18px;}
+.main .support_bg .text_right p{ font-size:12px; font-family:"宋体"; margin-top:21px; padding-left:46px; padding-right:54px; line-height:23px; text-indent:11px;}
+.main .support_bg .text_right .map{ width:423px; height:342px; margin:0 auto; }
+.main .support_bg .text_right .map img{ margin-top:34px;}

@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+.main{ height:1140px; width:1004px; margin:0 auto;}
+
+.main .main_left{ height:100px; width:171px; border:1px solid #dfe0e2; float:left;}
+.main .main_left .sub_nav{ height:40px; width:169px; background:url(../images/sub_menu_bg01.jpg) no-repeat; margin:1px 1px; font-size:14px; font-weight:bold; line-height:40px; text-align:center; color:#FFF;}
+
+
+.main .main_left .span4{ margin:0; width:170px; height:460px;}
+.main .main_left .span4 .accordion-heading{text-align:left; font-family:"宋体"; font-size:14px; font-weight:bold;  background:#537bec; }
+.main .main_left .span4 .accordion-heading .accordion-toggle{ color:#fff; text-decoration:none; border-radius:0px; height:40px; padding:0; line-height:40px; padding-left:5px; width:158px;display:block; text-align:center  }
+.main .main_left .span4 .accordion-heading .accordion-toggle:hover{ color:#FFF; }
+/*
+.main .main_left .span4 .accordion-inner{background:#f0f2f9; height:40px;display:block; margin:0 ; padding:0; margin-top:3px; border-radius:0px;margin-left:1px; padding-left:10px; width:158px; border:none;}
+.main .main_left .span4 .accordion-inner a{color:#313131; text-decoration:none; line-height:40px; }
+.main .main_left .span4 .accordion-inner:hover{ background:#d9edff;color:#188fca}
+.main .main_left .span4 .accordion-inner:hover a{ color:#188fca}
+*/
+
+.main .main_right{ width:810px; height:1100px; float:right; }
+.main .main_right p{ font-size:12px; color:#5b81d2; height:39px; width:810px; border-bottom:#5977e5 solid 1px; line-height:38px; margin-bottom:0;}
+.main .main_right p a{ text-decoration:none}
+.main .main_right p a.now{ text-decoration:none; color:#12277a}
+.main .main_right p a:hover{ color:#000;}
+
+.main .articl{ height:1080px; width:810px; border-top:1px solid #0a2f8a; padding-top:10px; padding-top:15px;}
+.main .articl .articl_main{ height:1070px; width:810px; background:#f0f2f9;} 
+.main .articl .articl_main a.photo01{ height:150px; width:679px; display:block; margin:0 auto;}
+.main .articl .articl_main .articl_center{ width:679px; height:auto; margin:0 auto;}
+
+.main .articl .articl_main p{ border:none; padding:0; margin:0; height:25px; line-height:25px;}
+.main .articl .articl_main .title{ font-size:18px; color:#e64702; line-height:30px; margin:20px 0;}
+.main .articl .articl_main p.title1{ font-size:14px; color:#e64702; font-weight:bold; width:600px}
+.main .articl .articl_main .text01{ height:auto; width:679px; margin:0 auto; font-size:12px; margin-bottom:35px;}
+.main .articl .articl_main .text01 p{ color:#000; margin-left:35px; width:600px; line-height:25px;}
+.main .articl .articl_main .text01 font{ margin-left:95px; line-height:25px;}
+
+.main .articl .articl_main p.title2{ font-size:14px; color:#e64702; font-size:12px;width:600px; line-height:28px; height:28px;}
+.main .articl .articl_main .text02{ height:auto; width:679px; margin:0 auto; font-size:12px; color:#000;text-indent:3em; line-height:25px; word-spacing:8px; letter-spacing:1px;}
+ 
+ 
+
+/*
+.main .tab{ height:60px; width:810px; background:url(../images/product_line.jpg) top center no-repeat;}
+.main .tab p{ border:none; font-size:12px;}
+.main .tab p a{ height:22px; width:22px; display:block; float:left; line-height:22px; text-align:center; margin-left:2px;}
+.main .tab p a.now1{ background:#ed4800;  color:#FFF;height:22px; width:22px; float:left; display:block;}
+.main .tab p a:hover{ background:#ed4800; color:#fff;}
+.main .tab p a.btn1{ background:url(../images/btn01.jpg) no-repeat; height:22px; width:22px;}
+.main .tab p font{ float:left; margin:0 5px; height:22px; line-height:22px; }*/
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

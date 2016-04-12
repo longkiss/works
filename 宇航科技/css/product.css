@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+a{border:none; outline:none;}
+img{border:none;}
+
+
+
+/***********************************************banner开始********************************************************************/
+
+ 
+.banner{height:560px; width:100%; overflow:hidden; position:relative; text-align:center;}
+
+/***********************************************文本内容开始********************************************************************/
+
+.main{ width:1174px; height:795px; margin:45px auto 0; }
+/*内容左边部分*/
+.main .main_left{ height:795px; width:233px; float:left; }
+.main .main_left .left_sub{ height:60px; width:233px; background:#2b3b44; line-height:60px; color:#FFF; font-size:18px;}
+.main .main_left .left_sub span{ margin-left:38px;}
+
+.subNavBox{width:233px;border:solid 1px #e5e3da;}
+.subNav{border-bottom:solid 1px #e5e3da;cursor:pointer;font-weight:bold;font-size:14px;color:#999; height:60px; width:195px;line-height:60px;padding-left:38px;background:#f3f3f3 url(../images/sub_icon02.jpg) no-repeat 170px 20px; }
+.subNav:hover{color:#ec1b22;}
+.currentDd{color:#ec1b22}
+.currentDt{background-image:url(../images/sub_icon01.jpg);}
+.navContent{display: none;border-bottom:solid 1px #e5e3da; background:#ededee}
+.navContent li{ height:28px; padding:8px 0; list-style-type:none;}
+.navContent li a{display:block;width:195px;heighr:30px;text-align:left;font-size:14px;line-height:30px;color:#757576; padding-left:38px;}
+.navContent li a:hover{background-color:#f0f8fc}
+
+
+
+/*内容右边部分*/
+.main .main_right{ height:795px; width:890px; float:right;}
+
+.main .main_right .right_sub{ padding-left:20px ;height:60px; width:870px ; font-size:14px; line-height:60px; background:#f3f3f3; color:#000; }
+.main .main_right .right_sub a{color:#000;font-family:"宋体", "微软雅黑";}
+.main .main_right .right_sub a.now{color:#F00;}
+.main .main_right .right_sub a:hover{ color:#F00;}
+
+.main .main_right .product{ height:695px; width:890px;  padding-top:40px;font-family:"宋体", "微软雅黑";}
+.main .main_right .product .photo{ height:152px; width:197px; background:#f3f3f3; float:left; margin-left:34px; margin-bottom:40px}
+.main .main_right .product a{ height:150px; width:195px; display:block; background:#f3f3f3; float:left; text-align:center; font-size:12px; color:#353535 }
+.main .main_right .product a img{ height:103px; width:195px;}
+.main .main_right .product a font{ line-height:47px;}
+/*.main .main_right .product a font{ height:47px; width:195px; display:block; color:#353535; font-size:12px; line-height:40px; text-align:center;}*/
+
+.main .main_right .product .now01{ margin-left:0;}
+.main .main_right .product a:hover{ border:#F00 solid 1px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

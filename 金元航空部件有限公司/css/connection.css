@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.main{ width:1001px; height:567px; margin:0 auto; margin-bottom:15px;}
+.main .sub_nav{ width:168px; height:100px;float:left;}
+.main .sub_nav a{ width:170px; height:40px; }
+.main .main_content{ width:811px; height:567px;  float:right;}
+.main .main_content .main_content_current{ width:811px; height:38px; border-bottom:1px solid #537bec; line-height:39px; }
+.main .main_content .main_content_01{ width:811px; height:14px;border-top:1px solid #0b2c8b;}
+.main .main_content .main_content_current a{ height:39px;font-family:"宋体"; font-size:12px; color:#537bec; }
+.main .main_content .main_content_current span{font-family:"宋体"; font-size:12px;color:#537bec;}
+.main .main_content .main_content_current .now{ color:#0b2c8b;}
+.main .main_content_text{ width:811px; height:513px; background:#f0f2f9;}
+.main .main_content_text .top{ margin-left:67px; margin-top:19px;}
+.main .main_content_text .connection{ width:250px; height:180px; margin:49px 0 0 67px; float:left; }
+.main .main_content_text .connection p{ height:30px; font-family:"宋体"; font-size:14px; color:#242425; }
+.main .main_content_text .right{ width:251px; float:right; margin:49px 193px 0 0;}
+
+
+
+
+
+.main .sub_nav .span4{ margin:0; width:168px; height:100px; border:1px solid #dfe0e2; }
+.main .sub_nav .span4 .accordion-heading{text-align:left; font-family:"宋体"; font-size:14px; font-weight:bold;  background:#537bec; text-align:center; }
+.main .sub_nav .span4 .accordion-heading:hover{}
+.main .sub_nav .span4 .accordion-heading .accordion-toggle{ color:#fff; text-decoration:none; border-radius:0px; height:40px; padding:0; line-height:40px;width:158px;display:block; background:url(../images/sub_menu_icon.jpg) no-repeat 150px 15px; }
+.main .sub_nav .span4 .accordion-heading .accordion-toggle:hover{ color:#FFF; background:url(../images/sub_menu_icon1.jpg) no-repeat 150px 15px;}
+.main .sub_nav .span4 .accordion-inner{background:#f0f2f9; height:40px;display:block; margin:0 ; padding:0; margin-top:3px; border-radius:0px;margin-left:1px; padding-left:10px; width:158px; border:none;}
+.main .sub_nav .span4 .accordion-inner a{color:#313131; text-decoration:none; line-height:40px; }
+.main .sub_nav .span4 .accordion-inner:hover{ background:#d9edff;color:#188fca}
+.main .sub_nav .span4 .accordion-inner:hover a{ color:#188fca}

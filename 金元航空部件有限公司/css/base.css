@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; border:none;}
+img{ border:none;}
+a{ text-decoration:none; border:none; outline:none;}
+
+
+
+/*公共部分*/
+
+/*header*/
+header{ height:240px; width:100%; background:url(../images/base/header_bg.jpg) no-repeat center; margin:0 auto; text-align:center; vertical-align:central}
+header .header_center{ height:240px; width:1004px; margin:0 auto;}
+header .header_center a{ float:left; margin-left:5px;}
+
+
+/*nav*/
+nav{ height:42px; width:100%; margin:0 auto 10px; background: url(../images/base/nav_bg_center.jpg) no-repeat center;box-shadow:#999 4px 4px 5px;}
+nav .nav{ height:42px; width:1004px; margin:0 auto; }
+nav .nav a{ font-size:14px; font-family:"微软雅黑";float:left; margin:0 20px 0 0;height:42px; line-height:42px; text-decoration:none; color:#FFF; width:80px; text-align:center;}
+
+nav .nav .nav1{float:left; margin-right:13px; position:relative; width:80px; height:42px; position:relative; top:-6px; padding-top:6px;}
+nav .nav .nav1.sjx{}
+nav .nav .nav1:hover{ float:left; margin-right:13px; position:relative; width:80px; height:42px; position:relative; top:-6px; padding-top:6px; color:#562008; background:#ffd200}
+nav .nav .nav1:hover a{ color:#562008}
+nav .nav .nav1:hover .sjx{ background:url(../images/base/nav_icon.png) no-repeat; position:absolute; right:-7px; top:0px;width:7px; height:6px;}
+
+nav .nav #nav1{ float:left; margin-right:13px; position:relative; width:80px; height:42px; position:relative; top:-6px; padding-top:6px; color:#562008; background:#ffd200}
+nav .nav #nav1 a{color:#562008}
+nav .nav #nav1 .sjx{ background:url(../images/base/nav_icon.png) no-repeat; position:absolute; right:-7px; top:0px;width:7px; height:6px;}
+
+
+
+
+/*footer*/
+
+footer{ height:36px; width:100%; margin:0 auto; background:url(../images/base/footer.jpg) no-repeat top; text-align:center; padding-top:30px; font-size:12px; color:#0d0538}
+footer p font{ color:#999}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{ height:274px; width:100%px; background:url(../images/news/news_banner_bg.jpg) repeat-x; margin-top:-20px;}
+.banner a{ height:379px; width:1124px; display:block; margin:0 auto;}
+
+
+
+/*主体部分*/
+	/*新闻中心*/
+.sub_nav{ width:1124px; height:67px;  margin:0 auto;}
+.sub_nav a{ margin-left:5px; text-align:center; line-height:67px; color:#565657; font-size:12px; font-family:"宋体"; text-decoration:none;}
+.sub_nav a.now{ color:#0968bb}
+.sub_nav a:hover{ color:#0968bb}
+.main{width:100%; height:521px; margin-bottom:15px;}
+.main .support_bg{ width:1124px; height:840pxpx;  margin:0 auto;}
+.main .support_bg .menu_left{ width:219px; height:840pxpx; border:solid 1px  #cddeed; float:left;}
+.main .support_bg .menu_left .span4{ margin:0; width:219px; height:476px;}
+.main .support_bg .menu_left .span4 .accordion-heading{ background: url(../images/service/images/menu_bbg.jpg) no-repeat;text-align:center; font-family:"宋体"; font-size:14px; font-weight:bold;  }
+.main .support_bg .menu_left .span4 .accordion-heading:hover{background: url(../images/service/images/menu_now.jpg) no-repeat;}
+.main .support_bg .menu_left .span4 .accordion-heading .accordion-toggle{ color:#000; text-decoration:none;}
+.main .support_bg .menu_left .span4 .accordion-heading .accordion-toggle:hover{ color:#FFF;}
+.main .support_bg .menu_left .span4 .accordion-inner a{ padding-left:80px; color:#313131; text-decoration:none;}
+.main .support_bg .menu_left .span4 .accordion-inner:hover{ background:#d9edff;color:#188fca}
+.main .support_bg .menu_left .span4 .accordion-inner:hover a{ color:#188fca}
+
+/*文字右边*/
+.main .support_bg .text_right{ width:866px; height:476px;  border:solid 1px  #cddeed; float:right; }
+.main .support_bg .text_right p{ font-size:18px; color:#05325a; font-weight:bold; height:70px; line-height:70px; padding-left:35px; }
+.main .support_bg .text_right .text_table{ width:831px; height:354px; margin:0 auto; }
+
+.text_right .text_table .text1{ width:832px; height:38px; line-height:38px; border-bottom:solid 2px #e9e9e9; margin-bottom:14px;}
+.text_right .text_table .text1 span{ font-size:14px; font-weight:bold; line-height:38px;  }
+.text_right .text_table .text1 span.text2{ float:left; margin:0 111px 0 0; width:100px; text-align:center;}
+.text_right .text_table .text1 span.text3{ float:left; margin:0 140px 0 0;  width:100px; text-align:center;}
+.text_right .text_table .text1 span.text4{ float:left; margin:0 170px 0 0;  width:100px; text-align:center;}
+.text_right .text_table .text1 span.text5{ float:left;  width:100px; text-align:center;}
+
+ 
+
+.text_right .text_table .text6{ width:832px; height:30px; line-height:30px;background:#f4f9fd;}
+.text_right .text_table .text6 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text6 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text6 span.text3{ float:left; margin:0 145px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text6 span.text4{ float:left; margin:0 140px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text6 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+
+.text_right .text_table .text7{ width:832px; height:30px; line-height:30px;}
+.text_right .text_table .text7 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text7 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text7 span.text3{ float:left; margin:0 145px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text7 span.text4{ float:left; margin:0 140px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text7 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+
+.text_right .text_table .text8{ width:832px; height:30px; line-height:30px; background:#f4f9fd;}
+.text_right .text_table .text8 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text8 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text8 span.text3{ float:left; margin:0 145px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text8 span.text4{ float:left; margin:0 140px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text8 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+.text_right .text_table .text9{ width:832px; height:30px; line-height:30px;}
+.text_right .text_table .text9 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text9 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text9 span.text3{ float:left; margin:0 145px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text9 span.text4{ float:left; margin:0 140px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text9 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+.text_right .text_table .text10{ width:832px; height:30px; line-height:30px; background:#f4f9fd;}
+.text_right .text_table .text10 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text10 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text10 span.text3{ float:left; margin:0 146px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text10 span.text4{ float:left; margin:0 139px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text10 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+
+.text_right .text_table .text11{ width:832px; height:30px; line-height:30px;}
+.text_right .text_table .text11 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text11 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text11 span.text3{ float:left; margin:0 146px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text11 span.text4{ float:left; margin:0 139px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text11 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+
+.text_right .text_table .text12{ width:832px; height:30px; line-height:30px; background:#f4f9fd;}
+.text_right .text_table .text12 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text12 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text12 span.text3{ float:left; margin:0 145px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text12 span.text4{ float:left; margin:0 140px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text12 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+
+.text_right .text_table .text13{ width:832px; height:30px; line-height:30px;}
+.text_right .text_table .text13 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text13 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text13 span.text3{ float:left; margin:0 146px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text13 span.text4{ float:left; margin:0 139px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text13 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+.text_right .text_table .text14{ width:832px; height:30px; line-height:30px; background:#f4f9fd;}
+.text_right .text_table .text14 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text14 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text14 span.text3{ float:left; margin:0 145px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text14 span.text4{ float:left; margin:0 140px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text14 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}
+
+
+.text_right .text_table .text15{ width:832px; height:30px; line-height:30px;}
+.text_right .text_table .text15 span{ font-size:14px; width:832px;line-height:30px;   }
+.text_right .text_table .text15 span.text2{ float:left; margin:0 105px 0 22px; width:100px; text-align:left;}
+.text_right .text_table .text15 span.text3{ float:left; margin:0 146px 0 13px;  width:100px; text-align:leftt;}
+.text_right .text_table .text15 span.text4{ float:left; margin:0 139px 0 0;  width:100px; text-align:left;}
+.text_right .text_table .text15 span.text5{ float:left;  width:85px; text-align:left; padding-left:15px;}

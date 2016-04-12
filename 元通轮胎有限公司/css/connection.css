@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*banner部分*/
+.banner{ width:100%; height:274px; background:url(../images/connection/images/banner_bg.jpg) repeat-x; margin-top:-20px; }
+.banner a{ width:1124px; height:274px; margin:0 auto; display:block;}
+
+
+/*主体部分*/
+.support_bg{ width:100%; height:432px;}
+.sub_nav{ width:1124px; height:20px; line-height:20px; margin:30px auto 16px;}
+
+.sub_nav a{ color:#565657; font-family:"宋体"; font-size:12px;}
+
+.sub_nav font{ font-family:"宋体"; font-size:12px; margin-left:6px;}
+
+.main{ width:1125px; height:309px; margin:0 auto;}
+/****************主体左边*********/
+.main .left{ width:219px; height:307px; float:left; border: solid 1px #cddeed;}
+.main .left .span4{ margin:0; width:219px;}
+.main .left .span4 .accordion-heading{ background: url(../images/service/images/menu_bbg.jpg) no-repeat;text-align:center; font-family:"宋体"; font-size:14px; font-weight:bold;  }
+.main .left .span4 .accordion-heading:hover{background: url(../images/service/images/menu_now.jpg) no-repeat;} 
+.main .left .span4 .accordion-heading .accordion-toggle{ color:#000; text-decoration:none;outline:none;}
+.main .left .span4 .accordion-heading .accordion-toggle:hover{ color:#FFF;}
+.main .left .span4 .accordion-inner a{ padding-left:80px; color:#656666; text-decoration:none; outline:none;}
+.main .left .span4 .accordion-inner:hover{ background:#d9edff;color:#188fca}
+.main .left .span4 .accordion-inner:hover a{color:#188fca;}
+ /**********主体右边******************/
+ .main .container{ width:866px; height:307px; float:right;border: solid 1px #cddeed;}
+ .main .container .text1{ width:98px; height:24px; margin:15px 0 0 34px;; }
+.main .container a{ color:#05325a; font-weight:600; font-size:18px; line-height:24px;}
+.main .pic{ width:252px; height:222px; margin:15px 0 0 34px; display:block; float:left }
+.main .container .text2{ width:400px; height:116px; float:right; margin:34px 116px 0 0;}
+.main .container .text2 p{ font-size:14px; line-height:25px;}
+
+
